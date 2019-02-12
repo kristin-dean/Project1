@@ -1,9 +1,9 @@
 body {
-  background-image: url("nigthsky.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: auto;
-  
+  background: url(nightsky.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
 img.person_image {
