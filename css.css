@@ -4,3 +4,6 @@ body {
 img.person_image {
   height: 200px;
   width: 100px;}
+
+div[class*="day-box COMPLETED"] {
+  background-color: teal;}
