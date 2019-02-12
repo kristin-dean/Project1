@@ -1,7 +1,9 @@
 body {
   background-image: url("space.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;}
+  background-attachment: fixed;
+  background-size: auto;
+  }
 
 img.person_image {
   height: 200px;
