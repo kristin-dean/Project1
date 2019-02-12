@@ -6,7 +6,6 @@ body {
   background-color: black; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center;
-  margin-top:10px;
   }
 
 img.person_image {
@@ -32,4 +31,5 @@ div[class="nav"] {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:10;
 }
