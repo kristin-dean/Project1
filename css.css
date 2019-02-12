@@ -16,3 +16,8 @@ div[class*="day-box COMPLETED"] {
   border: 20px black;
   padding: 20px;
   margin: 20px;}
+
+div[class*="day-box"] {
+  border: 5px solid #FFF8DC;
+  padding: 5px;
+  border-radius:5px;}
