@@ -7,3 +7,8 @@ img.person_image {
 
 div[class*="day-box COMPLETED"] {
   background-color: teal;}
+
+* {
+  border: 20px black;
+  padding: 20px;
+  margin: 20px;}
