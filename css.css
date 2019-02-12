@@ -29,4 +29,6 @@ div[class*="day-box"] {
 div[class="header"] {
   background-color: white;
   position: fixed;
+  top: 0;
+  width: 1003px
 }
