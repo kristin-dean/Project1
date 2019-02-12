@@ -1,5 +1,7 @@
 body {
-  background-image: url("space.png");}
+  background-image: url("space.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
 
 img.person_image {
   height: 200px;
