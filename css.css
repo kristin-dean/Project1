@@ -27,10 +27,11 @@ div[class*="day-box"] {
   background-color: #FFF8DC;
   opacity: 0.75;}
 div[class="nav"] {
+  text-align: center;
   background-color: white;
   position: fixed;
   top: 5px;
-  left: 5px;
+  left: 0px;
   padding: 10px;
   margin: 0px;
   width: 100%;
