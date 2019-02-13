@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
  color: #3D0077;
  background-color: azure; 
  opacity: 0.75;
+ text-shadow: 2px 2px azure;
 }
 
 [class*="day-box CURRENT"] {
