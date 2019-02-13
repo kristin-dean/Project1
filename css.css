@@ -21,7 +21,7 @@ img.person_image
   background-color: lightskyblue;
   opacity: 0.75;
   padding: 5px;
-  margin: 20px;
+  margin: 20px 100px 20px 100px;
   border-radius:5px;
 }
 
@@ -30,9 +30,17 @@ img.person_image
   background-color: #D8C2F2;
   opacity: 0.75;
   padding: 5px;
-  margin: 20px;
+  margin: 20px 100px 20px 100px;
   border-radius:5px;
 }
+
+[class*="day-box CURRENT"] {
+  border: 5px solid azure;
+  padding: 5px;
+  margin: 20px 100px 20px 100px;
+  border-radius:5px;
+  background-color: azure;
+  opacity: 0.75;}
 
 h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
 {
@@ -42,13 +50,7 @@ h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
  text-shadow: 0px 0px 10px black;
 }
 
-[class*="day-box CURRENT"] {
-  border: 5px solid azure;
-  padding: 5px;
-  margin: 20px;
-  border-radius:5px;
-  background-color: azure;
-  opacity: 0.75;}
+
 
 [class="nav"] {
   text-align: center;
