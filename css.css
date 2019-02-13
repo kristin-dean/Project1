@@ -24,7 +24,7 @@ div[class*="day-box"] {
   border: 5px solid #FFF8DC;
   padding: 5px;
   border-radius:5px;
-  background-color: #FFF8DC;
+  background-color: azure;
   opacity: 0.75;}
 
 div[class="nav"] {
