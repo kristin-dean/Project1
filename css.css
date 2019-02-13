@@ -9,6 +9,7 @@ body {
   }
 
 img.person_image {
+  margin-top: 50px
   height: 200px;
   width: 150px;}
 
@@ -31,7 +32,7 @@ img.person_image {
   position: fixed;
   top: 5px;
   left: 0px;
-  padding: 10px;
+  padding: 20px;
   margin: 0px;
   width: 100%;
   z-index:1000;}
