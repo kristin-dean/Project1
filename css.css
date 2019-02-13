@@ -1,4 +1,5 @@
-body {
+body 
+{
   background-image: url("galaxyimage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -6,24 +7,32 @@ body {
   background-color: black; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center;
-  }
+}
 
-img.person_image {
+img.person_image 
+{
   margin-top: 100px
   height: 200px;
-  width: 150px;}
+  width: 150px;
+}
 
-[class*="day-box COMPLETED"] {
-  background-color: teal;}
+[class*="day-box CURRENT"] {
+  border: 5px solid lightskyblue;
+  padding: 5px;
+  margin: 20px;
+  border-radius:5px;
+  background-color: lightskyblue;
+  opacity: 0.75;
+}
 
-h1, h2, h3, h4, h5, h6, table, p
+h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
 {
  color: #3D0077;
  background-color: azure; 
  opacity: 0.75;
 }
 
-[class*="day-box"] {
+[class*="day-box CURRENT"] {
   border: 5px solid azure;
   padding: 5px;
   margin: 20px;
