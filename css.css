@@ -15,14 +15,12 @@ img.person_image {
 [class*="day-box COMPLETED"] {
   background-color: teal;}
 
-*
-{
-  margin: 5px; 
-}
+
 
 [class*="day-box"] {
   border: 5px solid azure;
   padding: 5px;
+  margin: 5px;
   border-radius:5px;
   background-color: azure;
   opacity: 0.75;}
@@ -34,6 +32,6 @@ img.person_image {
   top: 5px;
   left: 0px;
   padding: 10px;
-  margin: 0px;
+  margin: 10px;
   width: 100%;
   z-index:1000;}
