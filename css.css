@@ -18,7 +18,8 @@ img.person_image
 
 [class*="header"]
 {
-  margin-top: 60px; 
+  margin-top: 60px;
+  margin-left: 100px;
 }
 
 [class*="day-box COMPLETED"] 
