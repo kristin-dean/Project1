@@ -20,12 +20,18 @@ img.person_image
 {
   background-color: lightskyblue;
   opacity: 0.75;
+  padding: 5px;
+  margin: 20px;
+  border-radius:5px;
 }
 
 [class*="day-box PREP"] 
 {
   background-color: #E7D7EE;
   opacity: 0.75;
+  padding: 5px;
+  margin: 20px;
+  border-radius:5px;
 }
 
 h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
