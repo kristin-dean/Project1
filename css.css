@@ -19,6 +19,7 @@ img.person_image {
 h1, h2, h3, h4, h5, h6, table
 {
  background-color: azure; 
+ opacity: 0.75;
 }
 
 [class*="day-box"] {
@@ -38,7 +39,9 @@ h1, h2, h3, h4, h5, h6, table
   padding: 10px;
   margin: 0px;
   width: 100%;
-  z-index:1000;}
+  z-index:1000;
+  opacity: 0.80;
+}
 
 href:link {
   color: azure;
