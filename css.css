@@ -21,7 +21,7 @@ div[class*="day-box COMPLETED"] {
   margin: 20px;}
 
 div[class*="day-box"] {
-  border: 5px solid #FFF8DC;
+  border: 5px solid azure;
   padding: 5px;
   border-radius:5px;
   background-color: azure;
