@@ -16,7 +16,10 @@ img.person_image {
 [class*="day-box COMPLETED"] {
   background-color: teal;}
 
-
+h1, h2, h3, h4, h5, h6, table
+{
+ background-color: azure; 
+}
 
 [class*="day-box"] {
   border: 5px solid azure;
