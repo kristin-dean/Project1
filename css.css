@@ -22,6 +22,12 @@ img.person_image
   opacity: 0.75;
 }
 
+[class*="day-box PREP"] 
+{
+  background-color: #E7D7EE;
+  opacity: 0.75;
+}
+
 h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
 {
  color: #3D0077;
