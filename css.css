@@ -16,11 +16,8 @@ img.person_image
   width: 150px;
 }
 
-[class*="day-box CURRENT"] {
-  border: 5px solid lightskyblue;
-  padding: 5px;
-  margin: 20px;
-  border-radius:5px;
+[class*="day-box COMPLETED"] 
+{
   background-color: lightskyblue;
   opacity: 0.75;
 }
