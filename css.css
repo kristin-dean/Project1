@@ -12,22 +12,18 @@ img.person_image {
   height: 200px;
   width: 150px;}
 
-div[class*="day-box COMPLETED"] {
+[class*="day-box COMPLETED"] {
   background-color: teal;}
 
-* {
-  border: 20px black;
-  padding: 20px;
-  margin: 20px;}
 
-div[class*="day-box"] {
+[class*="day-box"] {
   border: 5px solid azure;
   padding: 5px;
   border-radius:5px;
   background-color: azure;
   opacity: 0.75;}
 
-div[class="nav"] {
+[class="nav"] {
   text-align: center;
   background-color: rgb(47, 114, 177);
   position: fixed;
