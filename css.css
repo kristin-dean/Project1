@@ -16,8 +16,9 @@ img.person_image {
 [class*="day-box COMPLETED"] {
   background-color: teal;}
 
-h1, h2, h3, h4, h5, h6, table
+h1, h2, h3, h4, h5, h6, table, p
 {
+ color: #3D0077;
  background-color: azure; 
  opacity: 0.75;
 }
