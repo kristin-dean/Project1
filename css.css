@@ -16,6 +16,11 @@ img.person_image
   width: 150px;
 }
 
+[class*="header"]
+{
+  margin-top: 40px; 
+}
+
 [class*="day-box COMPLETED"] 
 {
   background-color: lightskyblue;
