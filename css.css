@@ -27,11 +27,11 @@ img.person_image {
 
 [class="nav"] {
   text-align: center;
-  background-color: rgb(47, 114, 177);
+  background-color: rgb(83, 146, 204);
   position: fixed;
   top: 5px;
   left: 0px;
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
   width: 100%;
   z-index:1000;}
