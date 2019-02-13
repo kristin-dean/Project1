@@ -67,6 +67,7 @@ svg
 [class="nav"] {
   text-align: center;
   background-color: rgb(83, 146, 204);
+  hover-color: azure;
   position: fixed;
   top: 5px;
   left: 0px;
@@ -75,6 +76,7 @@ svg
   width: 100%;
   z-index:1000;
   opacity: 0.80;
+  
 }
 
 href:link {
