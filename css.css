@@ -61,6 +61,11 @@ svg
   opacity: 0.75;
 }
 
+svg img
+{
+ opacity: 100%; 
+}
+
 
 [class="nav"] {
   text-align: center;
