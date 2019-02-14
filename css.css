@@ -9,8 +9,14 @@ body
   background-color: black; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center;
-  -webkit-animation: mymove 15s infinite; /* Safari 4.0 - 8.0 */
-  animation: mymove 15s infinite;
+}
+
+img.person_image 
+{
+  margin-top: 100px
+  height: 200px;
+  width: 150px;
+  padding: 30px;
 }
 
 table 
@@ -24,17 +30,9 @@ table
 tr,td 
 {
   text-align:left;
-  padding: 30px;
+  padding: 60px;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-  50% {background-position: center;}
-}
-
-@keyframes mymove {
-  50% {background-position: center;}
-}
 
 [class*="header"]
 {
@@ -94,12 +92,7 @@ h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_pr
 
 /* ------------------ Home page ------------------*/
 
-img.person_image 
-{
-  margin-top: 100px
-  height: 200px;
-  width: 150px;
-}
+
 
 /* day boxes */
 
