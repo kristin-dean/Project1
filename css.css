@@ -123,9 +123,10 @@ img.person_image
 
 /* ------------------ Seating page ------------------*/
 
-svg
+svg:not(image)
 {
   background-color: azure;
+  opacity: 75%;
   
 }
 
