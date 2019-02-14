@@ -184,7 +184,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 svg:not(image)
 {
   background-color: azure;
-  opacity: .80;
+  opacity: 100%;
   border-radius:5px;
   
 }
