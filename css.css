@@ -26,6 +26,7 @@ body
 {
   margin-top: 60px;
   margin-left: 100px;
+  font-family: verdana, geneva, sans-serif;
 }
 
 h1
@@ -35,6 +36,7 @@ h1
  opacity: 0.90;
  text-shadow: 0px 0px 10px black;
  hover-color: rgb(159, 233, 242);
+ font-family: verdana, geneva, sans-serif;
 }
 
 h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_prompt"]
@@ -44,6 +46,7 @@ h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_pr
  opacity: 0.90;
  text-shadow: 0px 0px 10px black;
  hover-color: rgb(159, 233, 242);
+ font-family: verdana, geneva, sans-serif;
 }
 
 [class="nav"] {
@@ -71,6 +74,7 @@ h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_pr
  color: azure; 
  opacity: 0.90;
  text-shadow: 0px 0px 10px black;
+ font-family: verdana, geneva, sans-serif;
 }
 
 
@@ -99,6 +103,7 @@ img.person_image
   padding: 5px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
+  font-family: verdana, geneva, sans-serif;
 }
 
 [class*="day-box PREP"] 
@@ -108,7 +113,7 @@ img.person_image
   padding: 5px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
-
+  font-family: verdana, geneva, sans-serif;
 }
 
 [class*="day-box CURRENT"] {
@@ -117,6 +122,7 @@ img.person_image
   padding: 5px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
+  font-family: verdana, geneva, sans-serif;
 }
 
 [class*=href]
