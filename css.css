@@ -126,7 +126,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 {
   background-color: #D8C2F2;
   opacity: 0.75;
-  padding: 5px;
+  padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
   font-family: verdana, geneva, sans-serif;
@@ -135,7 +135,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 [class*="day-box CURRENT"] {
   background-color: azure;
   opacity: 0.75;
-  padding: 5px;
+  padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
   font-family: verdana, geneva, sans-serif;
