@@ -78,7 +78,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 /*rgb(83, 146, 204);*/
 [class="nav"] {
   text-align: center;
-  background-color: var(--main-dark-grey);
+  background-color: var(--main-med-grey);
   
   position: fixed;
   top: 0px;
