@@ -28,7 +28,7 @@ table:not(.rubric_score>table)
   
 }
 
-tr:not(.rubric_score>tr), th:not(.rubric_score>th), td:not(.rubric_score>td)
+tr, th, td
 {
   text-align: center;
   padding: 30px 60px 30px 60px;
