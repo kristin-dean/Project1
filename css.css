@@ -176,6 +176,10 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
   display: block;
   color: azure;
 }
+.account_form label, .account_form input
+{
+  display: block; 
+}
 
 /* ------------------ Classmates page ------------------*/
 
