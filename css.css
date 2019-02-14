@@ -183,7 +183,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
   column-gap: 200px;
 }
 
-.account_form>*
+.account_form>label
 {
   padding: 60px;
 }
