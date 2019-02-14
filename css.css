@@ -181,6 +181,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
   width: 1000px;
   column-count: 2;
   column-gap: 200px;
+  font-family: verdana, geneva, sans-serif;
 }
 
 .account_form>label
