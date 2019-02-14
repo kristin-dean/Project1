@@ -18,7 +18,7 @@ body
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: var(--main-dark-color: #122230"); /* Used if the image is unavailable */
+  background-color: var(--main-dark-color: #122230"); 
   height: 500px; /* You must set a specified height */
   background-position: center;
 }
@@ -148,7 +148,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 }
 
 [class*="day-box CURRENT"] {
-  color: var(--main-white-color);
+  backgorund-color: var(--main-white-color);
   opacity: 0.75;
   padding: 15px;
   margin: 30px 100px 30px 100px;
