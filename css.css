@@ -96,7 +96,10 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 
 /* ------------------ Home page ------------------*/
 
-
+.partners
+{
+ color: azure; 
+}
 
 /* day boxes */
 
@@ -229,4 +232,10 @@ svg:not(image)
   margin: 0px 100px 0px 100px;
 }
 
+
+/* ------------------ Grade peers page ------------------*/
+.grade_form
+{
+ color: azure; 
+}
 
