@@ -21,7 +21,11 @@ table
     width:100px;
   }
 
-tr,td {text-align:left;}
+tr,td 
+{
+  text-align:left;
+  padding: 30px;
+}
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
