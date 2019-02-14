@@ -28,14 +28,19 @@ table
   
 }
 
-tr,td, th
+tr, th
 {
   text-align: center;
   padding: 30px 60px 30px 60px;
-  color: azure;
+  color: rgb(69, 0, 149);
   text-shadow: 0px 0px 10px black;
   font-family: verdana, geneva, sans-serif;
   background-color: azure;
+  column-gap: 0px;
+  opacity: .80;
+  border-radius:5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 
