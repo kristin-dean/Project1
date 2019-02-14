@@ -216,6 +216,13 @@ svg:not(image)
 
 /* ------------------ Assignment page ------------------*/
 
+.rubric_score
+{
+  text-align: left;
+  text-align:center; 
+  margin-left: 100px; 
+  
+}
 
 [class="assignment_form"]
 {
