@@ -175,7 +175,6 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 {
   display: block;
   color: azure;
-  padding: 60px;
   text-align:left; 
   margin-left: auto;
   margin-right: auto;
@@ -183,6 +182,12 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
   column-count: 2;
   column-gap: 200px;
 }
+
+.account_form>*
+{
+  padding: 60px;
+}
+
 .account_form label, .account_form input
 {
   display: block; 
