@@ -37,6 +37,15 @@ tr,td
   font-family: verdana, geneva, sans-serif;
 }
 
+tr
+{
+  backgorund-color: azure;
+  opacity: 50%;
+  padding: 5px;
+  margin: 30px 100px 30px 100px;
+  border-radius:5px;
+}
+
 
 [class*="header"]
 {
