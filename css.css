@@ -130,7 +130,8 @@ img.person_image
 svg:not(image)
 {
   background-color: azure;
-  opacity: .75;
+  opacity: .80;
+  border-radius:5px;
   
 }
 
