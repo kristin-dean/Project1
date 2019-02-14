@@ -116,7 +116,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 {
   background-color: lightskyblue;
   opacity: 0.75;
-  padding: 5px;
+  padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
   font-family: verdana, geneva, sans-serif;
