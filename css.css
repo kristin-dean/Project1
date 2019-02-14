@@ -1,3 +1,5 @@
+/* ------------------ all pages ------------------*/
+
 body 
 {
   background-image: url("galaxyimage.jpg");
@@ -9,6 +11,39 @@ body
   background-position: center;
 }
 
+[class*="header"]
+{
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+h1, h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_prompt"]
+{
+ color: azure;
+ margin-left: 50px
+ opacity: 0.90;
+ text-shadow: 0px 0px 10px black;
+ hover-color: rgb(159, 233, 242);
+}
+
+[class="nav"] {
+  text-align: center;
+  background-color: rgb(83, 146, 204);
+  hover-color: azure;
+  position: fixed;
+  top: 5px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  z-index:1000;
+  opacity: 0.80;
+  
+}
+
+
+/* ------------------ Home page ------------------*/
+
 img.person_image 
 {
   margin-top: 100px
@@ -16,11 +51,7 @@ img.person_image
   width: 150px;
 }
 
-[class*="header"]
-{
-  margin-top: 60px;
-  margin-left: 100px;
-}
+/* day boxes */
 
 [class*="day-box COMPLETED"] 
 {
@@ -48,20 +79,40 @@ img.person_image
   background-color: azure;
   opacity: 0.75;}
 
-h1, h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_prompt"]
-{
- color: azure;
- margin-left: 50px
- opacity: 0.90;
- text-shadow: 0px 0px 10px black;
- hover-color: rgb(159, 233, 242);
-}
-
 [class*=href]
 {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+
+[class="nav"] a:link {
+  color: azure;
+}
+
+/* visited link */
+[class="nav"] a:visited {
+  color: darkslateblue;
+}
+
+/* mouse over link */
+[class="nav"] a:hover {
+  color: #7339F2;
+}
+
+/* selected link */
+[class="nav"] a:active {
+  color: cyan;
+}
+
+
+
+/* ------------------ myAccount page ------------------*/
+
+
+/* ------------------ Classmates page ------------------*/
+
+/* ------------------ Seating page ------------------*/
 
 svg
 {
@@ -70,43 +121,12 @@ svg
 }
 
 
-
-[class="nav"] {
-  text-align: center;
-  background-color: rgb(83, 146, 204);
-  hover-color: azure;
-  position: fixed;
-  top: 5px;
-  left: 0px;
-  padding: 10px;
-  margin: 0px;
-  width: 100%;
-  z-index:1000;
-  opacity: 0.80;
-  
-}
-
-href:link {
-  color: azure;
-}
-
-/* visited link */
-href:visited {
-  color: darkslateblue;
-}
-
-/* mouse over link */
-href:hover {
-  color: #7339F2;
-}
-
-/* selected link */
-href:active {
-  color: cyan;
-}
+/* ------------------ Assignment page ------------------*/
 
 
 [class="assignment_form"]
 {
   margin: 0px 100px 0px 100px;
 }
+
+
