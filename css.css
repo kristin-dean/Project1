@@ -1,12 +1,4 @@
-:root {
-  --main-white-color: azure;
-  --main-dark-color: #122230;
-  --main-dark-grey: #253E5A;
-  --main-med-grey: #3E577A;
-  --main-light-grey: #647FAB;
-  --main-purple-color: #9FA4BE;
-   
-}
+
 
 
 
@@ -21,6 +13,15 @@ body
   background-color: var(--main-dark-color: #122230"); 
   height: 500px; /* You must set a specified height */
   background-position: center;
+}
+
+:root {
+  --main-white-color: azure;
+  --main-dark-color: #122230;
+  --main-dark-grey: #253E5A;
+  --main-med-grey: #3E577A;
+  --main-light-grey: #647FAB;
+  --main-purple-color: #9FA4BE;
 }
 
 img.person_image 
