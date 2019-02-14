@@ -175,7 +175,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 {
   display: block;
   color: azure;
-  text-align:center; 
+  text-align:left; 
   margin-left:auto; 
   margin-right:auto; 
   width:100px;
