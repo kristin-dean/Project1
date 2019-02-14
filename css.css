@@ -1,5 +1,11 @@
-
-
+:root {
+  --main-white-color: azure;
+  --main-dark-color: #122230;
+  --main-dark-grey: #253E5A;
+  --main-med-grey: #3E577A;
+  --main-light-grey: #647FAB;
+  --main-purple-color: #9FA4BE;
+}
 
 
 /* ------------------ all pages ------------------*/
@@ -10,19 +16,12 @@ body
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: var(--main-dark-color: #122230"); 
+  background-color: var(--main-dark-color);
   height: 500px; /* You must set a specified height */
   background-position: center;
 }
 
-:root {
-  --main-white-color: azure;
-  --main-dark-color: #122230;
-  --main-dark-grey: #253E5A;
-  --main-med-grey: #3E577A;
-  --main-light-grey: #647FAB;
-  --main-purple-color: #9FA4BE;
-}
+
 
 img.person_image 
 {
@@ -46,7 +45,7 @@ tr, th, td
   text-align: center;
   padding: 30px 60px 30px 60px;
   color: var(--main-white-color);
-  text-shadow: 0px 0px 10px var(--main-dark-color: #122230");
+  text-shadow: 0px 0px 10px var(--main-dark-color);
   font-family: verdana, geneva, sans-serif;
 }
 
@@ -63,7 +62,7 @@ h1
  color: var(--main-white-color);
  margin-left: 100px
  opacity: 0.90;
- text-shadow: 0px 0px 10px var(--main-dark-color: #122230");
+ text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: verdana, geneva, sans-serif;
 }
@@ -72,7 +71,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 {
  color: var(--main-white-color);
  margin-left: 50px
- text-shadow: 0px 0px 10px var(--main-dark-color: #122230");
+ text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: verdana, geneva, sans-serif;
 }
@@ -101,7 +100,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
  text-align: center;
  color: var(--main-white-color);
  opacity: 0.90;
- text-shadow: 0px 0px 10px var(--main-dark-color: #122230");
+ text-shadow: 0px 0px 10px var(--main-dark-color);
  font-family: verdana, geneva, sans-serif;
 }
 
