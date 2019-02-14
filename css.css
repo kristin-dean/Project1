@@ -47,13 +47,19 @@ h2, h3, h4, h5, h6, table, p, [class="assignment_title"], [class*="assignment_pr
   width: 100%;
   z-index:1000;
   opacity: 0.85;
-  
 }
 
 [class*="nav"] a
 {
    padding-left: 30px;
    padding-right: 30px;
+}
+
+[class="username"]
+{
+ color: azure; 
+ opacity: 0.90;
+ text-shadow: 0px 0px 10px black;
 }
 
 
