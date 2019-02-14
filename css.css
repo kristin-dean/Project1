@@ -188,6 +188,11 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
   display: block; 
 }
 
+.account_form title
+{
+  column-span: all;  
+}
+
 /* ------------------ Classmates page ------------------*/
 
 /* ------------------ Seating page ------------------*/
