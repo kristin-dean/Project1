@@ -48,7 +48,7 @@ img.person_image
   background-color: azure;
   opacity: 0.75;}
 
-h1, h2, h3, h4, h5, h6, table, p, [class="assignment-prompt"]
+h1, h2, h3, h4, h5, h6, table, p, [class="assignment_prompt"], [class*="assignment_prompt"]
 {
  color: azure;
  margin-left: 50px
