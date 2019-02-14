@@ -68,32 +68,28 @@ img.person_image
 
 /* day boxes */
 
-[class*="day-box COMPLETED"] 
+[class*="day-box]
 {
-  background-color: lightskyblue;
   opacity: 0.75;
   padding: 5px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
+}
+
+[class*="day-box COMPLETED"] 
+{
+  background-color: lightskyblue;
 }
 
 [class*="day-box PREP"] 
 {
   background-color: #D8C2F2;
-  opacity: 0.75;
-  padding: 5px;
-  margin: 30px 100px 30px 100px;
-  border-radius:5px;
+
 }
 
 [class*="day-box CURRENT"] {
-  border: 5px solid azure;
-  padding: 5px;
-  margin: 30px 100px 30px 100px;
-  border-radius:5px;
   background-color: azure;
-  opacity: 0.75;}
-
+}
 [class*=href]
 {
   padding-left: 30px;
