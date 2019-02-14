@@ -93,7 +93,12 @@ img.person_image
 
 [class*="day-box"]
 {
-  
+   
+}
+
+[class*="assignment-title"] 
+{
+  display: inline;
 }
 
 [class*="day-box COMPLETED"] 
