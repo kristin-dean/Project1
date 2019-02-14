@@ -130,7 +130,8 @@ div.partners
 
 [class*="day-box COMPLETED"] 
 {
-  background-color: lightskyblue;
+  /*lightskyblue*/
+  background-color: var(--main-light-grey);
   opacity: 0.75;
   padding: 15px;
   margin: 30px 100px 30px 100px;
@@ -140,7 +141,8 @@ div.partners
 
 [class*="day-box PREP"] 
 {
-  background-color: #D8C2F2;
+  /*#D8C2F2*/
+  background-color: var(--main-purple-color);
   opacity: 0.75;
   padding: 15px;
   margin: 30px 100px 30px 100px;
