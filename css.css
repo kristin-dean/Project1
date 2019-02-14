@@ -75,10 +75,11 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
  hover-color: rgb(159, 233, 242);
  font-family: verdana, geneva, sans-serif;
 }
-
+//rgb(83, 146, 204);
 [class="nav"] {
   text-align: center;
-  background-color: rgb(83, 146, 204);
+  background-color: var(--main-dark-grey);
+  
   position: fixed;
   top: 0px;
   left: 0px;
