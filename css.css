@@ -45,12 +45,25 @@ body
 img.person_image 
 {
   margin-top: 100px
+  margin-bottom: 30px
   height: 200px;
   width: 150px;
   padding: 30px;
   position: relative;
   left: -20;
   float: left;
+}
+
+[class="username"]
+{
+ text-align: center;
+ color: var(--main-white-color);
+ opacity: 0.90;
+ text-shadow: 0px 0px 10px var(--main-dark-color);
+ font-family: var(--main-font2);
+  position: relative;
+  left: -80;
+  top: -160;
 }
 
 table:not(.rubric_score>table)
@@ -90,6 +103,7 @@ h1
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: var(--main-font);
+ clear: left;
 }
 
 h1:hover
@@ -132,14 +146,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
    padding-right: 30px;
 }
 
-[class="username"]
-{
- text-align: center;
- color: var(--main-white-color);
- opacity: 0.90;
- text-shadow: 0px 0px 10px var(--main-dark-color);
- font-family: var(--main-font2);
-}
+
 
 
 /* ------------------ Home page ------------------*/
