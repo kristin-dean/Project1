@@ -96,14 +96,12 @@ h1
 {
  color: var(--main-white-color);
  margin-left: 100px
- text-align: center;
  opacity: 0.90;
  font-size: 500%;
- /*font-weight: bold;*/
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: var(--main-font);
- clear: left;
+ 
 }
 
 h1:hover
@@ -166,28 +164,6 @@ div.partners
    
 }
 
-[class*="assignment-title"] 
-{
-  display: inline;
-}
-
-[class*="day-box COMPLETED"] 
-{
-  /*lightskyblue*/
-  background-color: var(--main-light-blue);
-  opacity: 0.75;
-  padding: 15px;
-  margin: 25px 100px 25px 100px;
-  border-radius:5px;
-  font-family: var(--main-font2);
-}
-
-[class*="day-box COMPLETED"]:hover
-{
-   background-color: var(--main-light-blue);
-  opacity: 0.90;
-}
-
 
 [class*="day-box PREP"] 
 {
@@ -198,6 +174,7 @@ div.partners
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
+  clear: left;
 }
 
 [class*="day-box PREP"]:hover
@@ -221,6 +198,32 @@ div.partners
   background-color: var(--main-white-color);
   opacity: 0.95;
 }
+
+
+
+
+[class*="day-box COMPLETED"] 
+{
+  /*lightskyblue*/
+  background-color: var(--main-light-blue);
+  opacity: 0.75;
+  padding: 15px;
+  margin: 25px 100px 25px 100px;
+  border-radius:5px;
+  font-family: var(--main-font2);
+}
+
+[class*="day-box COMPLETED"]:hover
+{
+   background-color: var(--main-light-blue);
+  opacity: 0.90;
+}
+
+[class*="assignment-title"] 
+{
+  display: inline;
+}
+
 
 [class*=href]
 {
