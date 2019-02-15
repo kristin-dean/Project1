@@ -108,6 +108,11 @@ img.person_image
  top: 160;
 }
 
+.username + svg, .username + .account_form
+{
+  clear: left; 
+}
+
 table:not(.rubric_score>table)
 {
   text-align:center; 
