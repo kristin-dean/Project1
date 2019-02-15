@@ -32,7 +32,7 @@ font-family: spaceFont2;
   --main-purple-color: rgb(216, 194, 242);
   
   --main-white-colorO1: rgb(240, 255, 255, .95);
-  --main-dark-colorO1: rgb(18, 34, 48, .5);
+  --main-dark-colorO1: rgb(18, 34, 48, .8);
   --main-dark-greyO1: rgb(37, 62, 90, .85);
   --main-grey-blueO1: rgb(83, 146, 204, .9);
   --main-light-blueO1: rgb(135, 206, 250, .9);
@@ -42,7 +42,7 @@ font-family: spaceFont2;
   --main-purple-colorO1: rgb(216, 194, 242, .9);
   
    --main-white-colorO2: rgb(240, 255, 255, .85);
-  --main-dark-colorO2: rgb(18, 34, 48, .25);
+  --main-dark-colorO2: rgb(18, 34, 48, .7);
   --main-dark-greyO2: rgb(37, 62, 90, .75);
   --main-grey-blueO2: rgb(83, 146, 204, .8);
   --main-light-blueO2: rgb(135, 206, 250, .8);
@@ -366,8 +366,7 @@ svg
 {
   display: block;
   color: var(--main-white-color);
-  background-color: var(--main-dark-color);
-  opacity: 0.25;
+  background-color: var(--main-dark-colorO2);
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -377,8 +376,7 @@ svg
 
 .assignment_prompt:hover
 {
- background-color: var(--main-dark-color);
- opacity: 0.45;
+ background-color: var(--main-dark-colorO1);
 }
 
 [class="assignment_form"]
