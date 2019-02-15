@@ -304,14 +304,15 @@ div.partners
 
 /* ------------------ Seating page ------------------*/
 
-svg:not(image)
+svg
 {
+  display: block;
   background-color: var(--main-white-color);
   opacity: 100%;
   border-radius:5px;
   margin-left:auto; 
   margin-right:auto;
-  display: block;
+  
   
 }
 
