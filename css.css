@@ -327,9 +327,9 @@ svg
 .assignment_title
 {
   display: block;
-  color: var(--main-dark-color);
-  background-color: var(--main-white-color);
-  opacity: 0.85;
+  color: var(--main-white-color);
+  background-color: var(--main-dark-color);
+  opacity: 0.25;
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -339,16 +339,16 @@ svg
 
 .assignment_title:hover
 {
- background-color: var(--main-white-color);
- opacity: 0.95;
+ background-color: var(--main-dark-color);
+ opacity: 0.45;
 }
 
 .assignment_prompt
 {
   display: block;
-  color: var(--main-dark-color);
-  background-color: var(--main-white-color);
-  opacity: 0.85;
+  color: var(--main-white-color);
+  background-color: var(--main-dark-color);
+  opacity: 0.25;
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -358,8 +358,8 @@ svg
 
 .assignment_prompt:hover
 {
- background-color: var(--main-white-color);
- opacity: 0.95;
+ background-color: var(--main-dark-color);
+ opacity: 0.45;
 }
 
 [class="assignment_form"]
