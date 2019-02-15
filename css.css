@@ -77,7 +77,7 @@ h1
  margin-left: 100px
  opacity: 0.90;
  font-size: 400%;
- font-weight: bold;
+ /*font-weight: bold;*/
  position: relative;
  left: 100px;
  text-shadow: 0px 0px 10px var(--main-dark-color);
