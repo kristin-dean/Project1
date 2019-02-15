@@ -63,7 +63,7 @@ img.person_image
   padding: 30px;
   position: relative;
   left: -20;
-  /*float: left;*/
+  float: left;
 }
 
 [class="username"]
@@ -76,7 +76,6 @@ img.person_image
  position: relative;
  left: -80;
  top: -160;
- float: left;
 }
 
 table:not(.rubric_score>table)
@@ -110,14 +109,12 @@ h1
  color: var(--main-white-color);
  margin-left: 100px
  opacity: 0.90;
-  text-align: center;
+ text-align: center;
  font-size: 500%;
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: var(--main-font);
- position: relative;
- top: -200px;
-  clear: left;
+ clear: left;
  
 }
 
