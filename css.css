@@ -48,8 +48,8 @@ body
 
 img.person_image 
 {
-  margin-top: 100px
-  margin-bottom: 30px
+  margin-top: 80px
+  margin-bottom: 60px
   height: 200px;
   width: 150px;
   padding: 30px;
@@ -65,9 +65,9 @@ img.person_image
  opacity: 0.90;
  text-shadow: 0px 0px 10px var(--main-dark-color);
  font-family: var(--main-font2);
-  position: relative;
-  left: -80;
-  top: -160;
+ position: relative;
+ left: -80;
+ top: -160;
 }
 
 table:not(.rubric_score>table)
@@ -105,6 +105,8 @@ h1
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: var(--main-font);
+ position: relative;
+ left: 100px;
  
 }
 
