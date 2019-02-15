@@ -331,12 +331,15 @@ div.partners
 svg
 {
   display: block;
-  background-color: var(--main-dark-colorO1);
+  background-color: var(--main-dark-colorO2);
   border-radius:5px;
   margin-left:auto; 
   margin-right:auto;
-  
-  
+}
+
+svg:hover
+{
+  backgorund-color: var(--main-dark-colorO1); 
 }
 
 
