@@ -106,7 +106,6 @@ img.person_image
  position: relative;
  left: -80;
  top: 160;
- clear: left;
 }
 
 table:not(.rubric_score>table)
