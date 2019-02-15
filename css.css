@@ -117,6 +117,7 @@ h1
  font-family: var(--main-font);
  /*position: relative;
  left: 100px;*/
+  clear: left;
  
 }
 
