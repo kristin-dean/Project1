@@ -32,7 +32,7 @@ font-family: spaceFont2;
   --main-purple-color: rgb(216, 194, 242);
   
   --main-white-colorO1: rgb(240, 255, 255, .95);
-  --main-dark-colorO1: rgb(18, 34, 48, .8);
+  --main-dark-colorO1: rgb(18, 34, 48, .95);
   --main-dark-greyO1: rgb(37, 62, 90, .85);
   --main-grey-blueO1: rgb(83, 146, 204, .9);
   --main-light-blueO1: rgb(135, 206, 250, .9);
@@ -42,7 +42,7 @@ font-family: spaceFont2;
   --main-purple-colorO1: rgb(216, 194, 242, .9);
   
    --main-white-colorO2: rgb(240, 255, 255, .85);
-  --main-dark-colorO2: rgb(18, 34, 48, .7);
+  --main-dark-colorO2: rgb(18, 34, 48, .8);
   --main-dark-greyO2: rgb(37, 62, 90, .75);
   --main-grey-blueO2: rgb(83, 146, 204, .8);
   --main-light-blueO2: rgb(135, 206, 250, .8);
@@ -162,9 +162,9 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
  font-family: var(--main-font2);
 }
 
-h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]:hover
+h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_title"]:hover, [class*="assignment_prompt"]:hover
 {
-  color: var(--main-light-blueO1); 
+  color: var(--main-light-blue); 
 }
 
 [class="nav"] {
