@@ -115,8 +115,8 @@ h1
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
  font-family: var(--main-font);
- /*position: relative;
- left: 100px;*/
+ position: relative;
+ top: -200px;
   clear: left;
  
 }
