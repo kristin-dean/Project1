@@ -43,6 +43,8 @@ img.person_image
   height: 200px;
   width: 150px;
   padding: 30px;
+  position: relative;
+  left: -20;
 }
 
 table:not(.rubric_score>table)
