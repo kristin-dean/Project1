@@ -75,7 +75,8 @@ h1
  color: var(--main-white-color);
  margin-left: 100px
  opacity: 0.90;
- font-size: 120%;
+ font-size: 200%;
+  font-weight: bold;
  position: relative;
  left: 100px;
  text-shadow: 0px 0px 10px var(--main-dark-color);
@@ -160,6 +161,13 @@ div.partners
   font-family: var(--main-font2);
 }
 
+[class*="day-box COMPLETED"]:hover
+{
+   background-color: var(--main-light-blue);
+  opacity: 0.90;
+}
+
+
 [class*="day-box PREP"] 
 {
   /*#D8C2F2*/
@@ -171,13 +179,26 @@ div.partners
   font-family: var(--main-font2);
 }
 
-[class*="day-box CURRENT"] {
+[class*="day-box PREP"]:hover
+{
+  background-color: var(--main-purple-color);
+  opacity: 0.90;
+}
+
+[class*="day-box CURRENT"] 
+{
   background-color: var(--main-white-color);
   opacity: 0.85;
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
+}
+
+[class*="day-box CURRENT"]:hover
+{
+  background-color: var(--main-white-color);
+  opacity: 0.95;
 }
 
 [class*=href]
