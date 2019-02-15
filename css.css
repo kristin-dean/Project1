@@ -162,6 +162,11 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
  font-family: var(--main-font2);
 }
 
+h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]:hover
+{
+  color: var(--main-light-blueO1); 
+}
+
 [class="nav"] {
   text-align: center;
   background-color: var(--main-grey-blueO2);
