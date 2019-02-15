@@ -170,7 +170,7 @@ div.partners
 
 [class*="day-box CURRENT"] {
   background-color: var(--main-white-color);
-  opacity: 0.75;
+  opacity: 0.85;
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
