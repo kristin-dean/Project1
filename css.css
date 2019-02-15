@@ -158,7 +158,7 @@ div.partners
   background-color: var(--main-light-blue);
   opacity: 0.75;
   padding: 15px;
-  margin: 30px 100px 30px 100px;
+  margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
 }
@@ -176,7 +176,7 @@ div.partners
   background-color: var(--main-purple-color);
   opacity: 0.75;
   padding: 15px;
-  margin: 30px 100px 30px 100px;
+  margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
 }
@@ -192,7 +192,7 @@ div.partners
   background-color: var(--main-white-color);
   opacity: 0.85;
   padding: 15px;
-  margin: 30px 100px 30px 100px;
+  margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
 }
