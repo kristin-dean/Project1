@@ -10,6 +10,11 @@
   --main-purple-color: #D8C2F2;
 }
 
+@font-face {
+  font-family: spaceFont;
+  src: url(.woff);
+}
+
 
 /* ------------------ all pages ------------------*/
 
