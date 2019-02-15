@@ -21,7 +21,43 @@ font-family: spaceFont2;
 
 
 :root {
-  --main-white-color: azure;
+  --main-white-color: rgb(240, 255, 255);
+  --main-dark-color: rgb(18, 34, 48);
+  --main-dark-grey: rgb(37, 62, 90);
+  --main-grey-blue: rgb(83, 146, 204);
+  --main-light-blue: rgb(135, 206, 250);
+  --main-med-grey: rgb(62, 87, 122);
+  --main-light-grey: rgb(100, 127, 171);
+  --main-grey-purple-color: rgb(159, 164, 190);
+  --main-purple-color: rgb(216, 194, 242);
+  
+  --main-white-colorO1: rgb(240, 255, 255, .95);
+  --main-dark-colorO1: rgb(18, 34, 48, .5);
+  --main-dark-greyO1: rgb(37, 62, 90, .85);
+  --main-grey-blueO1: rgb(83, 146, 204, .9);
+  --main-light-blueO1: rgb(135, 206, 250, .9);
+  --main-med-greyO1: rgb(62, 87, 122, .85);
+  --main-light-greyO1: rgb(100, 127, 171, .85);
+  --main-grey-purple-colorO1: rgb(159, 164, 190, .85);
+  --main-purple-colorO1: rgb(216, 194, 242, .9);
+  
+   --main-white-colorO2: rgb(240, 255, 255, .85);
+  --main-dark-colorO2: rgb(18, 34, 48, .25);
+  --main-dark-greyO2: rgb(37, 62, 90, .75);
+  --main-grey-blueO2: rgb(83, 146, 204, .8);
+  --main-light-blueO2: rgb(135, 206, 250, .8);
+  --main-med-greyO2: rgb(62, 87, 122, .75);
+  --main-light-greyO2: rgb(100, 127, 171, .75);
+  --main-grey-purple-colorO2: rgb(159, 164, 190, .75);
+  --main-purple-colorO2: rgb(216, 194, 242, .8);
+  
+  --main-font: spaceFont;
+  --main-font2: futuretext2;
+  /*--main-font2: verdana, geneva, sans-serif;*/
+}
+
+/*
+--main-white-color: azure;
   --main-dark-color: #122230;
   --main-dark-grey: #253E5A;
   --main-grey-blue: rgb(83, 146, 204);
@@ -30,13 +66,8 @@ font-family: spaceFont2;
   --main-light-grey: #647FAB;
   --main-grey-purple-color: #9FA4BE;
   --main-purple-color: #D8C2F2;
-  --main-font: spaceFont;
-  --main-font2: futuretext2;
-  /*--main-font2: verdana, geneva, sans-serif;*/
-}
 
-
-
+*/
 
 
 /* ------------------ all pages ------------------*/
@@ -69,8 +100,7 @@ img.person_image
 [class="username"]
 {
  text-align: center;
- color: var(--main-white-color);
- opacity: 0.90;
+ color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px var(--main-dark-color);
  font-family: var(--main-font2);
  position: relative;
@@ -107,9 +137,8 @@ tr, th, td
 
 h1
 {
- color: var(--main-white-color);
+ color: var(--main-white-colorO1);
  margin-left: 100px
- opacity: 0.90;
  text-align: center;
  font-size: 500%;
  text-shadow: 0px 0px 10px var(--main-dark-color);
@@ -121,7 +150,7 @@ h1
 
 h1:hover
 {
-  color: var(--main-light-blue);
+  color: var(--main-light-blueO1);
 }
 
 h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
@@ -135,7 +164,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 
 [class="nav"] {
   text-align: center;
-  background-color: var(--main-grey-blue);
+  background-color: var(--main-grey-blueO2);
   
   position: fixed;
   top: 0px;
@@ -144,13 +173,11 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
   margin: 0px;
   width: 100%;
   z-index:1000;
-  opacity: 0.80;
 }
 
 [class="nav"]:hover
 {
-  background-color: var(--main-grey-blue);
-  opacity: 0.90;
+  background-color: var(--main-grey-blueO1);
 }
 
 [class*="nav"] a
@@ -183,8 +210,7 @@ div.partners
 [class*="day-box PREP"] 
 {
   /*#D8C2F2*/
-  background-color: var(--main-purple-color);
-  opacity: 0.75;
+  background-color: var(--main-purple-colorO2);
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -194,14 +220,12 @@ div.partners
 
 [class*="day-box PREP"]:hover
 {
-  background-color: var(--main-purple-color);
-  opacity: 0.90;
+  background-color: var(--main-purple-colorO1);
 }
 
 [class*="day-box CURRENT"] 
 {
-  background-color: var(--main-white-color);
-  opacity: 0.85;
+  background-color: var(--main-white-colorO2);
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -210,8 +234,7 @@ div.partners
 
 [class*="day-box CURRENT"]:hover
 {
-  background-color: var(--main-white-color);
-  opacity: 0.95;
+  background-color: var(--main-white-colorO1);
 }
 
 
@@ -220,8 +243,7 @@ div.partners
 [class*="day-box COMPLETED"] 
 {
   /*lightskyblue*/
-  background-color: var(--main-light-blue);
-  opacity: 0.75;
+  background-color: var(--main-light-blueO2);
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -230,8 +252,7 @@ div.partners
 
 [class*="day-box COMPLETED"]:hover
 {
-   background-color: var(--main-light-blue);
-  opacity: 0.90;
+   background-color: var(--main-light-blueO1);
 }
 
 [class*="assignment-title"] 
@@ -305,8 +326,7 @@ div.partners
 svg
 {
   display: block;
-  background-color: var(--main-white-color);
-  opacity: 100%;
+  background-color: var(--main-white-colorO2);
   border-radius:5px;
   margin-left:auto; 
   margin-right:auto;
@@ -329,8 +349,7 @@ svg
 {
   display: block;
   color: var(--main-white-color);
-  background-color: var(--main-dark-color);
-  opacity: 0.25;
+  background-color: var(--main-dark-colorO2);
   padding: 15px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
@@ -340,8 +359,7 @@ svg
 
 .assignment_title:hover
 {
- background-color: var(--main-dark-color);
- opacity: 0.45;
+ background-color: var(--main-dark-colorO1);
 }
 
 .assignment_prompt
