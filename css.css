@@ -63,7 +63,7 @@ img.person_image
   padding: 30px;
   position: relative;
   left: -20;
-  float: left;
+  /*float: left;*/
 }
 
 [class="username"]
@@ -76,6 +76,7 @@ img.person_image
  position: relative;
  left: -80;
  top: -160;
+ float: left;
 }
 
 table:not(.rubric_score>table)
