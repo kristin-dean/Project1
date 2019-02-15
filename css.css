@@ -1,3 +1,8 @@
+@font-face {
+  font-family: spaceFont;
+  src: url(andromeda.ttf);
+}
+
 :root {
   --main-white-color: azure;
   --main-dark-color: #122230;
@@ -8,12 +13,12 @@
   --main-light-grey: #647FAB;
   --main-grey-purple-color: #9FA4BE;
   --main-purple-color: #D8C2F2;
+  --main-font: spaceFont;
+  --main-font2: verdana, geneva, sans-serif;
 }
 
-@font-face {
-  font-family: spaceFont;
-  src: url(andromeda.ttf);
-}
+
+
 
 
 /* ------------------ all pages ------------------*/
@@ -54,7 +59,7 @@ tr, th, td
   padding: 30px 60px 30px 60px;
   color: var(--main-white-color);
   text-shadow: 0px 0px 10px var(--main-dark-color);
-  font-family: verdana, geneva, sans-serif;
+  font-family: var(--main-font2);
 }
 
 
@@ -62,7 +67,7 @@ tr, th, td
 {
   margin-top: 60px;
   margin-left: 100px;
-  font-family: verdana, geneva, sans-serif;
+  font-family: var(--main-font);
 }
 
 h1
@@ -72,7 +77,7 @@ h1
  opacity: 0.90;
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
- font-family: verdana, geneva, sans-serif;
+ font-family: var(--main-font);
 }
 
 h1:hover
@@ -86,7 +91,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
  margin-left: 50px
  text-shadow: 0px 0px 10px var(--main-dark-color);
  hover-color: rgb(159, 233, 242);
- font-family: verdana, geneva, sans-serif;
+ font-family: var(--main-font2);
 }
 /*rgb(83, 146, 204);*/
 [class="nav"] {
@@ -115,7 +120,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
  color: var(--main-white-color);
  opacity: 0.90;
  text-shadow: 0px 0px 10px var(--main-dark-color);
- font-family: verdana, geneva, sans-serif;
+ font-family: var(--main-font2);
 }
 
 
@@ -149,7 +154,7 @@ div.partners
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
-  font-family: verdana, geneva, sans-serif;
+  font-family: var(--main-font2);
 }
 
 [class*="day-box PREP"] 
@@ -160,7 +165,7 @@ div.partners
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
-  font-family: verdana, geneva, sans-serif;
+  font-family: var(--main-font2);
 }
 
 [class*="day-box CURRENT"] {
@@ -169,7 +174,7 @@ div.partners
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
-  font-family: verdana, geneva, sans-serif;
+  font-family: var(--main-font2);
 }
 
 [class*=href]
@@ -212,7 +217,7 @@ div.partners
   width: 1000px;
   column-count: 2;
   column-gap: 200px;
-  font-family: verdana, geneva, sans-serif;
+  font-family: var(--main-font2);
 }
 
 .account_form>label
