@@ -2,15 +2,23 @@
   font-family: spaceFont;
   src: url(andromeda.ttf);
 }
+
 @font-face
 {
 font-family: spaceFont2;
   src: url(Astrobia.ttf);
+}
+
+@font-face {
   font-family: futuretext;
   src: url(Dosis-Regular.ttf);
+}
+
+@font-face {
   font-family: futuretext2;
   src: url(Jura-Regular.ttf);
 }
+
 
 :root {
   --main-white-color: azure;
