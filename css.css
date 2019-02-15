@@ -2,6 +2,11 @@
   font-family: spaceFont;
   src: url(andromeda.ttf);
 }
+@font-face
+{
+font-family: spaceFont2;
+  src: url(Astrobia.ttf);
+}
 
 :root {
   --main-white-color: azure;
@@ -13,7 +18,7 @@
   --main-light-grey: #647FAB;
   --main-grey-purple-color: #9FA4BE;
   --main-purple-color: #D8C2F2;
-  --main-font: spaceFont;
+  --main-font: spaceFont2;
   --main-font2: spaceFont;
   /*--main-font2: verdana, geneva, sans-serif;*/
 }
