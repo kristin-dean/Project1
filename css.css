@@ -18,8 +18,8 @@ font-family: spaceFont2;
   --main-light-grey: #647FAB;
   --main-grey-purple-color: #9FA4BE;
   --main-purple-color: #D8C2F2;
-  --main-font: spaceFont2;
-  --main-font2: spaceFont;
+  --main-font: spaceFont;
+  --main-font2: verdana, geneva, sans-serif;
   /*--main-font2: verdana, geneva, sans-serif;*/
 }
 
