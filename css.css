@@ -2,9 +2,12 @@
   --main-white-color: azure;
   --main-dark-color: #122230;
   --main-dark-grey: #253E5A;
+  --main-grey-blue: rgb(83, 146, 204);
+  --main-light-blue: lightskyblue;
   --main-med-grey: #3E577A;
   --main-light-grey: #647FAB;
-  --main-purple-color: #9FA4BE;
+  --main-grey-purple-color: #9FA4BE;
+  --main-purple-color: #D8C2F2;
 }
 
 
@@ -67,6 +70,11 @@ h1
  font-family: verdana, geneva, sans-serif;
 }
 
+h1:hover
+{
+  color: var(--main-light-blue);
+}
+
 h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 {
  color: var(--main-white-color);
@@ -78,7 +86,7 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
 /*rgb(83, 146, 204);*/
 [class="nav"] {
   text-align: center;
-  background-color: var(--main-med-grey);
+  background-color: var(--main-grey-blue);
   
   position: fixed;
   top: 0px;
@@ -131,8 +139,8 @@ div.partners
 [class*="day-box COMPLETED"] 
 {
   /*lightskyblue*/
-  background-color: var(--main-light-grey);
-  opacity: 0.85;
+  background-color: var(--main-light-blue);
+  opacity: 0.75;
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
@@ -143,7 +151,7 @@ div.partners
 {
   /*#D8C2F2*/
   background-color: var(--main-purple-color);
-  opacity: 0.85;
+  opacity: 0.75;
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
@@ -152,7 +160,7 @@ div.partners
 
 [class*="day-box CURRENT"] {
   background-color: var(--main-white-color);
-  opacity: 0.85;
+  opacity: 0.75;
   padding: 15px;
   margin: 30px 100px 30px 100px;
   border-radius:5px;
