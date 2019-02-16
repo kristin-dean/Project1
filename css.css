@@ -100,16 +100,16 @@ img.person_image
 
 
 
-[class="username"]
+.username
 {
- text-align: center;
+ /*text-align: center;*/
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
  position: absolute;
  left: -200;
  top: 360;
- clear: left;
+ /*clear: left;*/
 }
 
 .username svg, .username .account_form
