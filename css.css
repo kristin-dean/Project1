@@ -209,7 +209,7 @@ div.partners
 /* day boxes */
 
 
-.assignment_label + *
+.assignment_label + #text
 {
   display: in-line; 
 }
