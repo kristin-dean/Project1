@@ -211,7 +211,7 @@ div.partners
 
 .assignment_label + #text
 {
-  display: in-line; 
+  display: inline; 
 }
 
 [class*="day-box"]
