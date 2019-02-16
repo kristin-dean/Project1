@@ -94,6 +94,7 @@ img.person_image
   padding: 30px;
   position: relative;
   left: -20;
+  float: left;
   
 }
 
@@ -106,7 +107,7 @@ img.person_image
  position: relative;
  left: -80;
  top: 160;
- float: left;
+ clear: left;
 }
 
 .username + svg, .username + .account_form
@@ -143,12 +144,11 @@ tr, th, td
 h1
 {
  color: var(--main-white-colorO1);
- margin-left: 100px
- /*text-align: center;*/
+ margin-left: 100px;
+ text-align: center;
  font-size: 500%;
  text-shadow: 0px 0px 10px var(--main-dark-color);
  font-family: var(--main-font);
- clear: left;
  
 }
 
