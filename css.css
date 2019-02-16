@@ -107,8 +107,8 @@ img.person_image
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
  position: relative;
- left: -80;
- top: 160;
+ left: -200;
+ top: 360;
  clear: left;
 }
 
