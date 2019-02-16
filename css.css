@@ -112,6 +112,11 @@ img.person_image
  /*clear: left;*/
 }
 
+.username:hover
+{
+  color: var(--main-light-blue);
+}
+
 .username svg, .username .account_form
 {
   clear: left; 
