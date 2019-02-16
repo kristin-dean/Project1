@@ -136,6 +136,11 @@ tr, th, td
   font-size: 150%
 }
 
+table
+{
+  position: relative;
+  left: 100px;
+}
 
 [class*="header"]
 {
