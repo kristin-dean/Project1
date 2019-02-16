@@ -98,7 +98,11 @@ img.person_image
   
 }
 
-
+person_info:nth-child(1):after
+{ 
+    display: block;  
+    clear: both;
+}
 
 .username
 {
