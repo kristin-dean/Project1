@@ -100,7 +100,6 @@ img.person_image
 
 [class="username"]
 {
-  display: block;
  text-align: center;
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px var(--main-dark-color);
