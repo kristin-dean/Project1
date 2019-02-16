@@ -83,7 +83,7 @@ body
   background-position: center;
 }
 
-form p:not(.assignment_pompt p)
+.input_text+p
 {
   color: var(--main-white-color);
   background-color: var(--main-dark-colorO2);
@@ -94,7 +94,7 @@ form p:not(.assignment_pompt p)
   
 }
 
-form p:hover
+.input_text p:hover
 {
  background-color: var(--main-dark-colorO1);
 }
