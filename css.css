@@ -117,15 +117,6 @@ img.person_image
   clear: left; 
 }
 
-table:not(.rubric_score>table)
-{
-  text-align:center; 
-  margin-left:auto; 
-  margin-right:auto; 
-  width:100px;
-  
-}
-
 tr, th, td
 {
   text-align: center;
@@ -335,8 +326,8 @@ div.partners
 h1 table
 {
   position: relative;
-  top: 200px
-  left: 200px;
+  top: -200px
+  left: 400px;
 }
 
 td+img
