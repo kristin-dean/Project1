@@ -98,6 +98,11 @@ img.person_image
   
 }
 
+td .username
+{
+ display: block;
+}
+
 [class="username"]
 {
  text-align: center;
