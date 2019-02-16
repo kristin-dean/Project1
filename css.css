@@ -94,7 +94,7 @@ body
   
 }
 
-.input_text p:hover
+.input_text+p:hover
 {
  background-color: var(--main-dark-colorO1);
 }
