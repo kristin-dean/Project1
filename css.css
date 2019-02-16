@@ -136,12 +136,6 @@ tr, th, td
   font-size: 150%
 }
 
-table
-{
-  position: relative;
-  left: 100px;
-}
-
 [class*="header"]
 {
   margin-top: 60px;
@@ -338,10 +332,11 @@ div.partners
 
 /* ------------------------------------------------------- Classmates page ------------------------------------------------------*/
 
-h1 + table
+h1 table
 {
   position: relative;
   top: 200px
+  left: 200px;
 }
 
 td+img
