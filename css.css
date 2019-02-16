@@ -374,7 +374,7 @@ svg:hover
  background-color: var(--main-dark-colorO1);
 }
 
-.assignment_prompt
+.assignment_prompt, assignment_form>p
 {
   display: block;
   color: var(--main-white-color);
@@ -386,7 +386,7 @@ svg:hover
   
 }
 
-.assignment_prompt:hover
+.assignment_prompt:hover, .assinment_form>p:hover
 {
  background-color: var(--main-dark-colorO1);
 }
