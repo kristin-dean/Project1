@@ -209,6 +209,10 @@ div.partners
 /* day boxes */
 
 
+.assignment_label + *
+{
+  display: in-line; 
+}
 
 [class*="day-box"]
 {
