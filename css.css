@@ -207,9 +207,14 @@ div.partners
 /* day boxes */
 
 
-.assignment_label .assignment_title
+.assignment_label
 {
   display: inline; 
+}
+
+.reading_box
+{
+ display: inline; 
 }
 
 .notes
