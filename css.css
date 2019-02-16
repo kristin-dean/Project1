@@ -83,6 +83,21 @@ body
   background-position: center;
 }
 
+form p
+{
+  color: var(--main-white-color);
+  background-color: var(--main-dark-colorO2);
+  padding: 15px;
+  margin: 25px 100px 25px 100px;
+  border-radius:5px;
+  font-family: var(--main-font2);
+  
+}
+
+form p:hover
+{
+ background-color: var(--main-dark-colorO1);
+}
 
 
 img.person_image 
