@@ -342,6 +342,8 @@ svg
   border-radius:5px;
   margin-left:auto; 
   margin-right:auto;
+  position: relative;
+  top: 200px;
 }
 
 svg:hover
