@@ -98,10 +98,7 @@ img.person_image
   
 }
 
-td .username
-{
- display: block;
-}
+
 
 [class="username"]
 {
@@ -132,7 +129,7 @@ table:not(.rubric_score>table)
 tr, th, td
 {
   text-align: center;
-  padding: 30px 60px 30px 60px;
+  padding: 10px 20px 10px 20px;
   color: var(--main-white-color);
   text-shadow: 0px 0px 10px black;
   font-family: var(--main-font2);
@@ -351,6 +348,10 @@ td+img
   padding: 0px, 30px, 30px, 0px;
 }
 
+td .username
+{
+ display: block;
+}
 
 /* -------------------------------------------------------- Seating page --------------------------------------------------*/
 
