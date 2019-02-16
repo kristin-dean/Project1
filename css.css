@@ -277,22 +277,22 @@ div.partners
 }
 
 
-[class="nav"] a:link {
+[class="nav"]>a:link {
   color: var(--main-white-color);
 }
 
 /* visited link */
-[class="nav"] a:visited {
+[class="nav"]>a:visited {
   color: darkslateblue;
 }
 
 /* mouse over link */
-[class="nav"] a:hover {
+[class="nav"]>a:hover {
   color: #7339F2;
 }
 
 /* selected link */
-[class="nav"] a:active {
+[class="nav"]>a:active {
   color: cyan;
 }
 
