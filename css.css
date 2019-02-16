@@ -333,6 +333,13 @@ div.partners
 
 /* ------------------ Classmates page ------------------*/
 
+h1 + table
+{
+  position: relative;
+  top: 200px
+}
+
+
 /* ------------------ Seating page ------------------*/
 
 svg
