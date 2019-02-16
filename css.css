@@ -94,7 +94,7 @@ img.person_image
   padding: 30px;
   position: relative;
   left: -20;
-  float: left;
+  dsplay: block;
   
 }
 
@@ -106,10 +106,6 @@ img.person_image
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
- position: relative;
- left: -200;
- top: 360;
- font-size: 500%;
  /*clear: left;*/
 }
 
@@ -149,7 +145,8 @@ h1
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font);
  position: relative;
- left: -150px
+ left: -150px;
+ display: inline;
 }
 
 h1:hover
