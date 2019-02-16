@@ -129,7 +129,7 @@ table:not(.rubric_score>table)
 tr, th, td
 {
   text-align: center;
-  padding: 10px 20px 10px 20px;
+  padding: 30px 20px 10px 20px;
   color: var(--main-white-color);
   text-shadow: 0px 0px 10px black;
   font-family: var(--main-font2);
@@ -217,10 +217,6 @@ div.partners
   display: inline; 
 }
 
-[class*="day-box"]
-{
-   
-}
 
 
 [class*="day-box PREP"] 
