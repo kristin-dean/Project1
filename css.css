@@ -83,7 +83,7 @@ body
   background-position: center;
 }
 
-form p
+form p:not(.assignment_pompt p)
 {
   color: var(--main-white-color);
   background-color: var(--main-dark-colorO2);
