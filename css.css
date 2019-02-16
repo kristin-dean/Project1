@@ -207,7 +207,10 @@ div.partners
   display: inline; 
 }
 
-
+.notes
+{
+  float: left;
+}
 
 [class*="day-box PREP"] 
 {
