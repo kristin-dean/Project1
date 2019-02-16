@@ -111,6 +111,8 @@ person_info:nth-child(1):after
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
+  position: absolute;
+  top: 200px;
  /*clear: left;*/
 }
 
