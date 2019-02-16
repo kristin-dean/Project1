@@ -106,9 +106,10 @@ img.person_image
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
- position: absolute;
+ position: relative;
  left: -200;
  top: 360;
+ font-size: 500%;
  /*clear: left;*/
 }
 
