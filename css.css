@@ -276,7 +276,8 @@ div.partners
 
 
 .day {
-  font-size: 200%;}
+  font-size: 200%;
+  font-weight: bold;}
 
 [class*="day-box COMPLETED"] 
 {
