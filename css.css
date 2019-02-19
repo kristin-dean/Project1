@@ -361,8 +361,9 @@ div.partners
 h1 table
 {
   position: relative;
-  top: 200px;
+  top: -200px;
   left: 400px;
+  margin-top: 200px;
 }
 
 td+img
