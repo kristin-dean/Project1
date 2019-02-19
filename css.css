@@ -358,6 +358,10 @@ div.partners
   column-span: all;  
 }
 
+.title {
+  font-size: 200%;
+  font-weight: bold;}
+
 /* ------------------------------------------------------- Classmates page ------------------------------------------------------*/
 
 h1 table
