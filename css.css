@@ -337,7 +337,7 @@ div.partners
   text-align:left; 
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
+  width: 1000px;
   column-count: 2;
   column-gap: 200px;
   font-family: var(--main-font2);
