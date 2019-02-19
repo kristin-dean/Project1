@@ -275,7 +275,8 @@ div.partners
 }
 
 
-
+.day {
+  font-size: 200%;}
 
 [class*="day-box COMPLETED"] 
 {
@@ -363,7 +364,6 @@ h1 table
   position: relative;
   top: -200px;
   left: 400px;
-  padding-top: 100px;
 }
 
 td+img
