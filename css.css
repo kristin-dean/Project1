@@ -460,3 +460,22 @@ svg:hover
  color: var(--main-white-color);
 }
 
+[class="graded-assignment"]>a:link {
+  color: var(--main-white-color);
+}
+
+/* visited link */
+[class="graded-assignment"]>a:visited {
+  color: var(--main-white-color);
+}
+
+/* mouse over link */
+[class="graded-assignment"]>a:hover {
+  color: var(--main-purple-color);
+}
+
+/* selected link */
+[class="graded-assignment"]>a:active {
+  color: var(--main-light-blue);
+}
+
