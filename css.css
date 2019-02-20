@@ -51,7 +51,7 @@ font-family: spaceFont2;
   --main-grey-purple-colorO2: rgb(159, 164, 190, .75);
   --main-purple-colorO2: rgb(216, 194, 242, .8);
   
-  --main-font: spaceFont;
+  --main-font: spaceFont2;
   --main-font2: futuretext2;
   /*--main-font2: verdana, geneva, sans-serif;*/
 }
