@@ -482,3 +482,7 @@ svg:hover
 .assignment_link:first-child {
   margin: 50px;
 }
+
+.prompt, .view_text, .rubric_title, author.comments {
+
+}
