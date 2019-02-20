@@ -333,6 +333,9 @@ div.partners
 [class*="assignment-label"] 
 {
   display: inline;
+  font-size: 110%;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
 
