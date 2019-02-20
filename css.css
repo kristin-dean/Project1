@@ -246,6 +246,7 @@ div.partners
 .notes
 {
   float: left;
+  margin-right: 30px;
 }
 
 [class*="day-box PREP"] 
