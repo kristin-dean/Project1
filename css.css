@@ -220,6 +220,10 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 /* --------------------------------------------- Home page -------------------------------------------------*/
 
+.username {
+  color: var(--main-white-color);
+}
+
 div.partners
 {
   color: var(--main-white-color); 
