@@ -460,22 +460,22 @@ svg:hover
  color: var(--main-white-color);
 }
 
-[class="assignment-link"]>a:link {
+[class="assignment_link"]>a:link {
   color: var(--main-white-color);
 }
 
 /* visited link */
-[class="assignment-link"]>a:visited {
+[class="assignment_link"]>a:visited {
   color: var(--main-white-color);
 }
 
 /* mouse over link */
-[class="assignment-link"]>a:hover {
+[class="assignment_link"]>a:hover {
   color: var(--main-purple-color);
 }
 
 /* selected link */
-[class="assignment-link"]>a:active {
+[class="assignment_link"]>a:active {
   color: var(--main-light-blue);
 }
 
