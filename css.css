@@ -178,7 +178,7 @@ h1:hover
   color: var(--main-light-blueO1);
 }
 
-h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"]
+h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"], .assignment-title, .prompt, .view_text, .rubric_title, .author_comments
 {
  color: var(--main-white-color);
  margin-left: 50px;
@@ -492,6 +492,6 @@ svg:hover
   margin: 50px;
 }
 
-.prompt, .view_text, .rubric_title, author.comments {
+
 
 }
