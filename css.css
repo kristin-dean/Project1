@@ -459,6 +459,7 @@ svg:hover
 .assignment_prompt:hover, .assignment_form>p:hover, .prompt>p:hover, .view_text:hover, .prompt:hover
 {
  background-color: var(--main-dark-colorO1);
+ color: var(--main-light-blue);
 }
 
 [class="assignment_form"]
