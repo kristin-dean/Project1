@@ -479,3 +479,6 @@ svg:hover
   color: var(--main-light-blue);
 }
 
+.assignment_link:first-child {
+  margin: 50px;
+}
