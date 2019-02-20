@@ -465,7 +465,7 @@ svg:hover
 }
 
 /* visited link */
-[class="graded-assignment"]>a:visited {
+[class="assignment-link"]>a:visited {
   color: var(--main-white-color);
 }
 
