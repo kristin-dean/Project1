@@ -330,6 +330,10 @@ div.partners
   color: var(--main-light-blue);
 }
 
+[class*="assignment-label"] 
+{
+  display: inline;
+}
 
 
 /* ----------------------------------------------------- myAccount page ---------------------------------------------*/
