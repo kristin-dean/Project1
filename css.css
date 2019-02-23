@@ -208,7 +208,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   color: var(--main-white-color);
   font-family: var(--main-font2); 
   background-color: var(--main-dark-color-O2);
-  margin-left: 100px;
+  text-align: center;
 }
 
 .assignment-title:hover
