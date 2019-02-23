@@ -619,7 +619,7 @@ svg:hover
   padding: 20px;
   color: var(--main-white-color);
   font-family: var(--main-font2);
-  font-size: 60%;
+  font-size: 120%;
 }
 
 .grade-table
