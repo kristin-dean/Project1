@@ -111,14 +111,14 @@ img.person_image
   margin-bottom: 10px;
   height: 137px;
   width: 100px;
-  border: 5px solid var(--main-dark-greyO2);
+  border: 8px solid var(--main-dark-greyO2);
   dsplay: block;
   
 }
 
 img.person_image:hover
 {
- border: 5px solid var(--main-dark-grey); 
+ border: 10px solid var(--main-dark-grey); 
 }
 
 .person_info
