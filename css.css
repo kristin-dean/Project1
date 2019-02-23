@@ -385,6 +385,25 @@ div.partners
   font-family: var(--main-font2);
 }
 
+[class*="day-box COMPLETED"]>a:link {
+  color: var(--main-grey-blue);
+}
+
+/* visited link */
+[class*="day-box COMPLETED"]>a:visited {
+  color: var(--main-med-grey);
+}
+
+/* mouse over link */
+[class*="day-box COMPLETED"]>a:hover {
+  color: var(--main-grey-purple-color);
+}
+
+/* selected link */
+[class*="day-box COMPLETED"]>a:active {
+  color: var(--main-light-blue);
+}
+
 [class*="day-box COMPLETED"]:hover
 {
    background-color: var(--main-light-blueO1);
