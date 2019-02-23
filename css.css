@@ -183,7 +183,7 @@ h3:not(body)
  margin-top: 200px; 
 }
 
-h2, h3, h4, h5, h6, p, [class="assignment_title"], .assignment-title, [class*="assignment_prompt"], .prompt, .view_text, .rubric_title, .author_comments, assignment-title
+h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"], .prompt, .view_text, .rubric_title, .author_comments, assignment-title
 {
  color: var(--main-white-color);
  margin-left: 50px;
@@ -192,13 +192,25 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], .assignment-title, [class*="a
 }
 
 
-h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_title"]:hover, .assignment-title:hover, [class*="assignment_prompt"]:hover
+h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_title"]:hover, [class*="assignment_prompt"]:hover
 {
   color: var(--main-light-blue); 
 }
 
 .assignment-label + .assignment-title {
   color: black;}
+
+.assignment-title
+{
+  color: var(--main-white-color);
+  font-family: var(--main-font2); 
+  background-color: var(--main-dark-color-O2);
+}
+
+.assignment-title:hover
+{
+  background-color: var(--main-dark-color-O1);
+}
 
 
 
