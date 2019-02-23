@@ -178,7 +178,7 @@ h1:hover
   color: var(--main-light-blueO1);
 }
 
-h3
+h3:not(body)
 {
  margin-top: 200px; 
 }
