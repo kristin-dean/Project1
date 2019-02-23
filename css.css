@@ -301,25 +301,25 @@ div.partners
 }
 
 
-.prep-box>a:link, .lab-box>a:link, .grading-box>a:link
+.prep-box>a:link, .lab-box>a:link, .grading-box>a:link, .reading>a:link
 {
-  color: rgb(43, 96, 148);
+  color: rgb(50, 71, 156);
 }
 
 /* visited link */
-.prep-box>a:visited, .lab-box>a:visited, .grading-box>a:visited
+.prep-box>a:visited, .lab-box>a:visited, .grading-box>a:visited, .reading>a:visited
 {
   color: rgb(15, 42, 151);
 }
 
 /* mouse over link */
-.prep-box>a:hover, .lab-box>a:hover, .grading-box>a:hover
+.prep-box>a:hover, .lab-box>a:hover, .grading-box>a:hover, .reading>a:hover
 {
   color: rgb(155, 73, 155);
 }
 
 /* selected link */
-.prep-box>a:active, .lab-box>a:active, .grading-box>a:active
+.prep-box>a:active, .lab-box>a:active, .grading-box>a:active, .reading>a:active
 {
   color: var(--main-grey-blue);
 }
@@ -355,7 +355,7 @@ div.partners
 
 [class*="day-box PREP"]>a:link, [class*="day-box CURRENT"]>a:link, [class*="day-box COMPLETED"]>a:link
 {
-  color: rgb(43, 96, 148);
+  color: rgb(50, 71, 156);
 }
 
 /* visited link */
