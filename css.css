@@ -603,9 +603,14 @@ svg:hover
   margin: 50px;
 }
 
-.graded-assignment
+.graded-assignment:first-child
 {
  margin-top: 200px; 
+}
+
+.graded-assignment
+{
+  margin: 20px;
 }
 
 .grade-table
