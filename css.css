@@ -140,6 +140,11 @@ img.person_image:hover
  
 }
 
+label
+{
+  text-align: left;
+}
+
 .username:hover, .flash:hover
 {
   color: var(--main-light-blue);
