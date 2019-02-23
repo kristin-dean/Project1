@@ -238,11 +238,17 @@ div.partners
 
 .assignment-label
 {
-  /*display: inline; */
+  display: inline;
   
 }
 
-.prep-box, .lab-box, .grading-box, .reading-box
+.reading-box
+{
+  display: inline;
+  padding-right: 50px;
+}
+
+.prep-box, .lab-box, .grading-box, 
 {
   padding-left: 50px;
 }
