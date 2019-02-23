@@ -303,7 +303,7 @@ div.partners
 
 .prep-box>a:link, .lab-box>a:link, .grading-box>a:link, .reading>a:link
 {
-  color: rgb(50, 71, 156);
+  color: rgb(67, 84, 155);
 }
 
 /* visited link */
@@ -355,7 +355,7 @@ div.partners
 
 [class*="day-box PREP"]>a:link, [class*="day-box CURRENT"]>a:link, [class*="day-box COMPLETED"]>a:link
 {
-  color: rgb(50, 71, 156);
+  color: rgb(67, 84, 155);
 }
 
 /* visited link */
