@@ -370,7 +370,7 @@ div.partners
   column-count: 2;
   column-gap: 200px;
   font-family: var(--main-font2);
-  margin-top: 200px;
+  padding-top: 100px;
 }
 
 .account_form>label
