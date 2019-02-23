@@ -116,6 +116,7 @@ img.person_image
   /*float: left;*/
   margin-bottom: 50px;
   margin-right: 50px;
+  clear: both;
 }
 
 .username, label
@@ -124,7 +125,7 @@ img.person_image
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
- clear: left;
+ clear: both;
 }
 
 .username:hover
