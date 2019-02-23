@@ -184,7 +184,7 @@ h1:hover
 
 h3:not(body)
 {
- margin-top: 200px; 
+ padding-top: 200px;
 }
 
 h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"], .prompt, .view_text, .rubric_title, .author_comments, assignment-title
@@ -606,12 +606,12 @@ svg:hover
 
 .graded-assignment:first-child
 {
- /*margin-top: 200px; */
+  padding-top: 200px;
 }
 
 .graded-assignment
 {
-  margin: 20px;
+  padding: 20px;
   color: var(--main-white-color);
   font-family: var(--main-font2);
 }
