@@ -588,22 +588,22 @@ svg:hover
  color: var(--main-white-color);
 }
 
-[class="assignment_link"]>a:link {
+a:link {
   color: var(--main-white-color);
 }
 
 /* visited link */
-[class="assignment_link"]>a:visited {
+a:visited {
   color: var(--main-white-color);
 }
 
 /* mouse over link */
-[class="assignment_link"]>a:hover {
+a:hover {
   color: var(--main-purple-color);
 }
 
 /* selected link */
-[class="assignment_link"]>a:active {
+a:active {
   color: var(--main-light-blue);
 }
 
