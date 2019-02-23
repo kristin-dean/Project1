@@ -383,6 +383,7 @@ div.partners
   column-gap: 200px;
   font-family: var(--main-font2);
   padding-top: 100px;
+  margin-bottom: 200px;
 }
 
 .account_form>label
