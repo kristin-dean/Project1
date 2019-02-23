@@ -259,6 +259,7 @@ div.partners
   /*#D8C2F2*/
   background-color: var(--main-purple-colorO2);
   padding: 15px;
+  padding-right: 30px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
@@ -274,6 +275,7 @@ div.partners
 {
   background-color: var(--main-white-colorO2);
   padding: 15px;
+  padding-right: 30px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
@@ -295,6 +297,7 @@ div.partners
   /*lightskyblue*/
   background-color: var(--main-light-blueO2);
   padding: 15px;
+  padding-right: 30px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
