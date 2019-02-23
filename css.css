@@ -271,26 +271,7 @@ div.partners
 }
 
 /* day boxes */
-[class~=box] a
 
-[class~=box]>a:link {
-  color: var(--main-white-color);
-}
-
-/* visited link */
-[class~=box]>a:visited {
-  color: var(--main-white-color);
-}
-
-/* mouse over link */
-[class~=box]>a:hover {
-  color: var(--main-purple-color);
-}
-
-/* selected link */
-[class~=box]>a:active {
-  color: var(--main-light-blue);
-}
 
 .assignment-label
 {
@@ -370,6 +351,29 @@ div.partners
 [class*="day-box PREP"]:hover
 {
   background-color: var(--main-purple-colorO1);
+}
+
+[class*="day-box PREP"]>a:link, [class*="day-box CURRENT"]>a:link, [class*="day-box COMPLETED"]>a:link
+{
+  color: rgb(43, 96, 148);
+}
+
+/* visited link */
+[class*="day-box PREP"]>a:visited, [class*="day-box CURRENT"]>a:visited, [class*="day-box COMPLETED"]>a:visited
+{
+  color: rgb(15, 42, 151);
+}
+
+/* mouse over link */
+[class*="day-box PREP"]>a:hover, [class*="day-box CURRENT"]>a:hover, [class*="day-box COMPLETED"]>a:hover
+{
+  color: rgb(155, 73, 155);
+}
+
+/* selected link */
+[class*="day-box PREP"]>a:active, [class*="day-box CURRENT"]>a:active, [class*="day-box COMPLETED"]>a:active
+{
+  color: var(--main-grey-blue);
 }
 
 
