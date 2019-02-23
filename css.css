@@ -131,7 +131,7 @@ img.person_image:hover
   
 }
 
-.username, label
+.username, label, .flash
 {
  /*text-align: center;*/
  color: var(--main-white-colorO1);
