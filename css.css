@@ -271,7 +271,15 @@ div.partners
 }
 
 /* day boxes */
+[class~="box"] .assignment-title
+{
+  color: black;
+}
 
+[class~="box"] .assignment-title:hover
+{
+  color: rgb(155, 73, 155);
+}
 
 .assignment-label
 {
