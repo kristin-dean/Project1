@@ -106,9 +106,8 @@ img.person_image
   margin-bottom: 10px;
   height: 120px;
   width: 100px;
-  border: 2px solid var(--main-dark-colorO1);
+  border: 20px solid var(--main-dark-colorO1);
   dsplay: block;
-  
   
 }
 
