@@ -347,6 +347,25 @@ div.partners
   background-color: var(--main-purple-colorO1);
 }
 
+[class*="day-box PREP"]>a:link {
+  color: rgb(43, 96, 148);
+}
+
+/* visited link */
+[class*="day-box PREP"]>a:visited {
+  color: rgb(15, 42, 151);
+}
+
+/* mouse over link */
+[class*="day-box PREP"]>a:hover {
+  color: rgb(155, 73, 155);
+}
+
+/* selected link */
+[class*="day-box PREP"]>a:active {
+  color: var(--main-grey-blue);
+}
+
 [class*="day-box CURRENT"] 
 {
   background-color: var(--main-white-colorO2);
@@ -360,6 +379,25 @@ div.partners
 [class*="day-box CURRENT"]:hover
 {
   background-color: var(--main-white-colorO1);
+}
+
+[class*="day-box CURRENT"]>a:link {
+  color: rgb(43, 96, 148);
+}
+
+/* visited link */
+[class*="day-box CURRENT"]>a:visited {
+  color: rgb(15, 42, 151);
+}
+
+/* mouse over link */
+[class*="day-box CURRENT"]>a:hover {
+  color: rgb(155, 73, 155);
+}
+
+/* selected link */
+[class*="day-box CURRENT"]>a:active {
+  color: var(--main-grey-blue);
 }
 
 
@@ -391,7 +429,7 @@ div.partners
 
 /* visited link */
 [class*="day-box COMPLETED"]>a:visited {
-  color: rgb(3, 76, 148);
+  color: rgb(15, 42, 151);
 }
 
 /* mouse over link */
