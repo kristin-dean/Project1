@@ -570,7 +570,7 @@ svg:hover
   width: 800px;
 }
 
-.rubric_score table: hover
+.rubric_score table:hover
 {
   background-color: var(--main-dark-colorO1);
 }
