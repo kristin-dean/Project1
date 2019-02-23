@@ -586,13 +586,13 @@ svg:hover
 {
   display: block;
   color: var(--main-white-color);
+  text-align: center;
   background-color: var(--main-dark-colorO2);
   padding: 15px;
-  padding-
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
-  clear: left:
+  clear: left;
   
 }
 .assignment_form
