@@ -470,10 +470,15 @@ svg:hover
   color: var(--main-white-color);
   background-color: var(--main-dark-colorO2);
   padding: 15px;
+  padding-
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
   
+}
+.assignment_form:not(.person_info)
+{
+ margin-top: 100px; 
 }
 
 .assignment_title:hover
