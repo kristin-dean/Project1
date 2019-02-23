@@ -140,7 +140,7 @@ img.person_image:hover
  
 }
 
-.username:hover
+.username:hover, .flash:hover
 {
   color: var(--main-light-blue);
 }
