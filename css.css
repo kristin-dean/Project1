@@ -604,7 +604,7 @@ svg:hover
   margin: 50px;
 }
 
-.graded-assignment:first-child
+.graded-assignment:first-of-type
 {
   padding-top: 200px;
 }
@@ -614,6 +614,7 @@ svg:hover
   padding: 20px;
   color: var(--main-white-color);
   font-family: var(--main-font2);
+  font-size: 60%;
 }
 
 .grade-table
