@@ -548,9 +548,9 @@ svg:hover
   clear: left:
   
 }
-.assignment_form:not(.person_info)
+.assignment_form
 {
- margin-top: 100px; 
+ padding-top: 220px; 
 }
 
 .assignment_title:hover
