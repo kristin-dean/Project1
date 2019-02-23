@@ -497,6 +497,7 @@ svg:hover
 {
   background-color: var(--main-dark-colorO2);
   padding-bottom: 30px; 
+  width: 400px;
 }
 
 .rubric_score table: hover
