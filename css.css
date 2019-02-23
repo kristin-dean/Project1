@@ -240,18 +240,20 @@ div.partners
 .assignment-label
 {
   display: inline;
+  margin-right: 30px;
   
 }
 
 .reading-box
 {
   display: inline;
-  padding-right: 50px;
+  padding-left: 20px;
 }
 
 .prep-box, .lab-box, .grading-box, 
 {
   display: inline;
+  margin-right: 30px;
   padding-left: 50px;
 }
 
