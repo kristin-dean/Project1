@@ -119,22 +119,13 @@ img.person_image
   float: left;
 }
 
-person_info:nth-child(1):after
-{ 
-    display: block;  
-    clear: both;
-}
-
 .username:not(table .username)
 {
  /*text-align: center;*/
  color: var(--main-white-colorO1);
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font2);
-  position: absolute;
-  top: 200px;
-  left: -80;
- /*clear: left;*/
+ clear: left;
 }
 
 .username:hover
@@ -172,9 +163,8 @@ h1
  font-size: 500%;
  text-shadow: 0px 0px 10px black;
  font-family: var(--main-font);
-  position: absolute;
-  left: 50%;
-  top: 100px;
+  float: right;
+  padding-right: 300px;
  /*display: inline;*/
 }
 
