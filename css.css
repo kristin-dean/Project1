@@ -112,6 +112,7 @@ img.person_image
   height: 137px;
   width: 100px;
   border: 8px solid var(--main-dark-greyO2);
+  border-radius:5px;
   dsplay: block;
   
 }
