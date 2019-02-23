@@ -110,8 +110,13 @@ img.person_image
   position: relative;
   left: -20;
   dsplay: block;
-  float: left;
   
+  
+}
+
+.person_info
+{
+  float: left;
 }
 
 person_info:nth-child(1):after
