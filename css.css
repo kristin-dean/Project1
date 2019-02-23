@@ -241,7 +241,26 @@ div.partners
 }
 
 /* day boxes */
+[class~=box] a
 
+[class~=box]>a:link {
+  color: var(--main-white-color);
+}
+
+/* visited link */
+[class~=box]>a:visited {
+  color: var(--main-white-color);
+}
+
+/* mouse over link */
+[class~=box]>a:hover {
+  color: var(--main-purple-color);
+}
+
+/* selected link */
+[class~=box]>a:active {
+  color: var(--main-light-blue);
+}
 
 .assignment-label
 {
