@@ -401,7 +401,7 @@ div.partners
 
 /* selected link */
 [class*="day-box COMPLETED"]>a:active {
-  color: var(--main-light-blue);
+  color: var(--main-grey-blue);
 }
 
 [class*="day-box COMPLETED"]:hover
