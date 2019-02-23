@@ -236,19 +236,13 @@ div.partners
 /* day boxes */
 
 
-.assignment_label
+.assignment-label
 {
-  display: inline; 
+  /*display: inline; */
   
 }
 
-.reading_box
-{
- display: inline; 
-  padding-left: 50px;
-}
-
-.prep-box, .lab-box
+.prep-box, .lab-box, .grading-box, .reading-box
 {
   padding-left: 50px;
 }
