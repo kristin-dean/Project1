@@ -215,6 +215,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   font-family: var(--main-font2); 
   background-color: var(--main-dark-color-O2);
   text-align: center;
+  clear: left;
 }
 
 .assignment-title:hover
@@ -544,6 +545,7 @@ svg:hover
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
+  clear: left:
   
 }
 .assignment_form:not(.person_info)
