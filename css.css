@@ -465,6 +465,16 @@ svg:hover
   
 }
 
+.rubric_score table
+{
+  background-color: var(--main-dark-colorO2);
+}
+
+.rubric_score table: hover
+{
+  background-color: var(--main-dark-colorO1);
+}
+
 .assignment_title
 {
   display: block;
