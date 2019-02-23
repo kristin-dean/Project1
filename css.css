@@ -386,17 +386,17 @@ div.partners
 }
 
 [class*="day-box COMPLETED"]>a:link {
-  color: var(--main-grey-blue);
+  color: rgb(43, 96, 148);
 }
 
 /* visited link */
 [class*="day-box COMPLETED"]>a:visited {
-  color: var(--main-med-grey);
+  color: rgb(3, 76, 148);
 }
 
 /* mouse over link */
 [class*="day-box COMPLETED"]>a:hover {
-  color: var(--main-grey-purple-color);
+  color: rgb(155, 73, 155);
 }
 
 /* selected link */
