@@ -241,11 +241,18 @@ div.partners
 .assignment_label
 {
   display: inline; 
+  
 }
 
 .reading_box
 {
  display: inline; 
+  padding-left: 50px;
+}
+
+.prep-box, .lab-box
+{
+  padding-left: 50px;
 }
 
 .notes
@@ -259,7 +266,7 @@ div.partners
   /*#D8C2F2*/
   background-color: var(--main-purple-colorO2);
   padding: 15px;
-  padding-right: 30px;
+  padding-left: 30px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
@@ -275,7 +282,7 @@ div.partners
 {
   background-color: var(--main-white-colorO2);
   padding: 15px;
-  padding-right: 30px;
+  padding-left: 30px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
@@ -297,7 +304,7 @@ div.partners
   /*lightskyblue*/
   background-color: var(--main-light-blueO2);
   padding: 15px;
-  padding-right: 30px;
+  padding-left: 30px;
   margin: 25px 100px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
@@ -308,7 +315,7 @@ div.partners
    background-color: var(--main-light-blueO1);
 }
 
-[class*="assignment-title"] 
+.assignment-title
 {
   display: inline;
 }
@@ -321,26 +328,26 @@ div.partners
 }
 
 
-[class="nav"]>a:link {
+.nav>a:link {
   color: var(--main-white-color);
 }
 
 /* visited link */
-[class="nav"]>a:visited {
+.nav>a:visited {
   color: var(--main-white-color);
 }
 
 /* mouse over link */
-[class="nav"]>a:hover {
+.nav>a:hover {
   color: var(--main-purple-color);
 }
 
 /* selected link */
-[class="nav"]>a:active {
+.nav>a:active {
   color: var(--main-light-blue);
 }
 
-[class*="assignment-label"] 
+.assignment-label"] 
 {
   display: inline;
   font-size: 110%;
