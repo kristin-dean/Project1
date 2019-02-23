@@ -225,6 +225,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 .username {
   color: var(--main-white-color);
+  padding-bottom: 50px;
 }
 
 div.partners
@@ -250,6 +251,7 @@ div.partners
 
 .prep-box, .lab-box, .grading-box, 
 {
+  display: inline;
   padding-left: 50px;
 }
 
