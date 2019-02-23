@@ -466,13 +466,13 @@ svg:hover
   text-align: left;
   text-align:center; 
   margin-left: 100px; 
-  font-size: 50%;
-  
+  font-size: 50%; 
 }
 
 .rubric_score table
 {
   background-color: var(--main-dark-colorO2);
+  padding-bottom: 30px; 
 }
 
 .rubric_score table: hover
