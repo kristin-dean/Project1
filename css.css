@@ -359,7 +359,7 @@ div.partners
 
 /* ----------------------------------------------------- myAccount page ---------------------------------------------*/
 
-[class="account_form"]
+.account_form
 {
   display: block;
   color: var(--main-white-color);
@@ -370,6 +370,7 @@ div.partners
   column-count: 2;
   column-gap: 200px;
   font-family: var(--main-font2);
+  margin-top: 200px;
 }
 
 .account_form>label
