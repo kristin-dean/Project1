@@ -112,7 +112,7 @@ img.person_image
   border-radius:5px;
   height: 137px;
   width: 100px;
-  border: 6px solid var(--main-dark-greyO2);
+  border: 5px solid var(--main-dark-greyO2);
   border-radius:5px;
   dsplay: block;
   
@@ -120,7 +120,7 @@ img.person_image
 
 img.person_image:hover
 {
- border: 6px solid var(--main-dark-grey);
+ border: 5px solid var(--main-dark-grey);
 }
 
 .person_info
