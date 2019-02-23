@@ -585,4 +585,24 @@ svg:hover
  margin-top: 200px; 
 }
 
+.grade-table
+{
+  text-align: left;
+  text-align:center; 
+  margin-left: 100px; 
+  font-size: 50%; 
+}
+
+.grade-table
+{
+  background-color: var(--main-dark-colorO2);
+  padding-bottom: 30px; 
+  width: 400px;
+}
+
+.grade-table: hover
+{
+  background-color: var(--main-dark-colorO1);
+}
+
 }
