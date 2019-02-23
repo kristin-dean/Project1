@@ -172,6 +172,8 @@ h1
   float: right;
   padding-right: 300px;
  /*display: inline;*/
+  position: relative;
+  top: -150;
 }
 
 h1:hover
