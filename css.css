@@ -606,12 +606,14 @@ svg:hover
 
 .graded-assignment:first-child
 {
- margin-top: 200px; 
+ /*margin-top: 200px; */
 }
 
 .graded-assignment
 {
   margin: 20px;
+  color: var(--main-white-color);
+  font-family: var(--main-font2);
 }
 
 .grade-table
