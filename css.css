@@ -148,6 +148,12 @@ tr, th, td
   font-size: 150%
 }
 
+th:hover, td:hover
+{
+  color: var(--main-light-blue);
+}
+
+
 [class*="header"]
 {
   margin-top: 60px;
