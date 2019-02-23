@@ -103,12 +103,10 @@ body
 img.person_image 
 {
   margin-top: 10px;
-  margin-bottom: 30px;
-  height: 110px;
-  width: 80px;
-  padding: 10px;
-  position: relative;
-  left: -20;
+  margin-bottom: 10px;
+  height: 120px;
+  width: 100px;
+  border: 2px solid var(--main-dark-colorO1);
   dsplay: block;
   
   
