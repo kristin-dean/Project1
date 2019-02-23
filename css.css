@@ -114,7 +114,7 @@ img.person_image
 .person_info
 {
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .username:not(table .username)
