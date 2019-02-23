@@ -113,7 +113,7 @@ img.person_image
 
 .person_info
 {
-  float: left;
+  /*float: left;*/
   margin-bottom: 50px;
   margin-right: 50px;
 }
