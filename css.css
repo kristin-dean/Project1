@@ -115,9 +115,10 @@ img.person_image
 {
   float: left;
   margin-bottom: 50px;
+  margin-right: 50px;
 }
 
-.username:not(table .username)
+.username, label
 {
  /*text-align: center;*/
  color: var(--main-white-colorO1);
