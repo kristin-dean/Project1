@@ -111,6 +111,11 @@ img.person_image
   
 }
 
+img.person_image:hover
+{
+ border: 5px solid var(--main-light-blue); 
+}
+
 .person_info
 {
   float: left;
