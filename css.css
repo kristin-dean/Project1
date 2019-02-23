@@ -259,8 +259,8 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 div.partners
 {
   color: var(--main-white-color); 
-  display: inline;
-  clear: left;
+  /*display: inline;*/
+  clear: both;
 }
 
 /* day boxes */
