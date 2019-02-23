@@ -395,9 +395,10 @@ div.partners
   display: block; 
 }
 
-.account_form title
+.account_form .title
 {
   column-span: all;  
+  test-align: center;
 }
 
 .title {
