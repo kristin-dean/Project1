@@ -265,7 +265,7 @@ div.partners
 
 .notes:hover
 {
- color: var(--main-light-blue); 
+ color: var(--main-dark-color); 
 }
 
 [class*="day-box PREP"] 
@@ -309,7 +309,7 @@ div.partners
 
 .day:hover
 {
- color: var(--main-light-blue); 
+ color: var(--main-dark-color); 
 }
 
 [class*="day-box COMPLETED"] 
