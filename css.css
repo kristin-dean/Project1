@@ -390,7 +390,13 @@ div.partners
 
 .title {
   font-size: 117%;
-  font-weight: bold;}
+  font-weight: bold;
+}
+
+.title:hover, label:hover
+{
+  color: var(--main-light-blue);
+}
 
 /* ------------------------------------------------------- Classmates page ------------------------------------------------------*/
 
