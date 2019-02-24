@@ -83,6 +83,12 @@ body
   background-position: center;
 }
 
+audio
+{
+   content: galaxyimage.jpg;
+
+}
+
 .input_text+p
 {
   color: var(--main-white-color);
