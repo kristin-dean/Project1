@@ -287,9 +287,13 @@ div.partners
 {
   color: var(--main-white-color); 
   /*display: inline;*/
+  
+ 
+}
+.partners #text
+{
   position: relative;
   left: -100px;
- 
 }
 
 /* day boxes */
