@@ -326,6 +326,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 .assignment-label
 {
   padding-left: 75px;
+  margin-right: 30px;
   display: inline;
 }
 
