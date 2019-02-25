@@ -145,7 +145,7 @@ img.person_image:hover
   
 }
 
-.login
+.login, .flash
 {
   margin-left: 100px; 
 }
