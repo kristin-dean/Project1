@@ -575,8 +575,8 @@ svg
   border-radius:5px;
   margin-left:auto; 
   margin-right:auto;
-  /*position: relative;
-  top: 150px;*/
+  position: relative;
+  top: -50px;
 }
 
 svg:hover
