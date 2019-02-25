@@ -305,14 +305,14 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 /* day boxes */
 [class*="day-box PREP"]>.assignment-title, [class*="day-box CURRENT"]>.assignment-title, [class*="day-box COMPLETED"]>.assignment-title
 {
-  color: black !important;
+  color: black;
   display: inline;
-  margin-right: 30px !important;
+  margin-right: 30px;
   font-weight: bold;
   font-size: 120%;
-  padding-left: 75px !important;
-  background-color: transparent !important;
-  /*border: 2px solid transparent !important;*/
+  /*padding-left: 75px;*/
+  background-color: transparent;
+  /*border: 2px solid transparent;*/
 }
 
 [class*="day-box PREP"]>.assignment-title:hover, [class*="day-box CURRENT"]>.assignment-title:hover, [class*="day-box COMPLETED"]>.assignment-title:hover 
