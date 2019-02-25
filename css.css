@@ -287,14 +287,16 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 {
   color: var(--main-white-color); 
   /*display: inline;*/
+  position: relative;
+  left: 100px;
   
  
 }
-.partners #text
+.partners
 {
   color: var(--main-white-color); 
-  position: absolute;
-  left: 100px;
+  /*position: absolute;
+  left: 100px;*/
   
 }
 
