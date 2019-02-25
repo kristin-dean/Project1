@@ -233,17 +233,6 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   color: var(--main-light-blue); 
 }
 
-.assignment-label + .assignment-title 
-{
-  color: black;
-  
-}
-
-.assignment-label + .assignment-title:hover
-{
-  color: rgb(155, 73, 155);
-}
-
 .assignment-title
 {
   
@@ -310,29 +299,34 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   float: left;
   /*position: relative;
   left: 275px;*/
-  
- 
 }
+
 
 
 /* day boxes */
 [class~="box"] .assignment-title
 {
   color: black;
-}
-
-[class~="box"] .assignment-title:hover
-{
-  color: rgb(155, 73, 155);
-}
-
-.assignment-label
-{
   display: inline;
   margin-right: 30px;
   font-weight: bold;
   font-size: 120%;
   padding-left: 75px;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+[class~="box"] .assignment-title:hover
+{
+  color: rgb(155, 73, 155);
+  background-color: transparent;
+  border: 2px solid transparent;
+  
+}
+
+.assignment-label
+{
+  
 }
 
 .grade
