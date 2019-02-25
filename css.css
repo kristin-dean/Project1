@@ -87,6 +87,7 @@ body
 {
   width: 25px;
   height: 25px;
+  content: url(stars.jpg);
   border: 2px solid var(--main-dark-greyO2);
 }
 
