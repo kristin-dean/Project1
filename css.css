@@ -94,6 +94,7 @@ body
 .sound:hover
 {
   border: 2px solid var(--main-dark-grey);
+  background-color: var(--main-dark-grey);
 }
 
 .input_text+p
@@ -121,7 +122,7 @@ textarea
 img.person_image 
 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   border-radius:5px;
   height: 137px;
   width: 100px;
