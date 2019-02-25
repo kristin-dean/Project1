@@ -569,8 +569,7 @@ h1~table
 {
  /* padding-top: 200px;*/
   align: center;
-  position: relative;
-  left: 25%;
+  padding-left: 25%;
 }
 
 td+img
