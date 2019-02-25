@@ -517,7 +517,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   column-count: 2;
   column-gap: 200px;
   font-family: var(--main-font2);
-  padding-top: 100px;
+  padding-top: 0px;
   margin-bottom: 200px;
 }
 
@@ -623,7 +623,7 @@ svg:hover
 }
 .assignment_form
 {
- padding-top: 220px; 
+ padding-top: 0px; 
 }
 
 .assignment_title:hover
@@ -637,7 +637,7 @@ svg:hover
   color: var(--main-white-color);
   background-color: var(--main-dark-colorO2);
   padding: 15px;
-  margin: 25px 100px 25px 100px;
+  margin: 25px 0px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
   
@@ -651,7 +651,7 @@ svg:hover
 
 [class="assignment_form"]
 {
-  margin: 0px 100px 0px 100px;
+  margin: 0px 0px 0px 100px;
 }
 
 
