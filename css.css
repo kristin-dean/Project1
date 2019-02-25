@@ -235,7 +235,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 div.assignment-title
 {
-  height: 120px;
+  height: 140px;
   padding: 5px 400px 5px 400px;
  /* border: 5px solid var(--main-dark-colorO2);*/
   color: var(--main-white-color);
