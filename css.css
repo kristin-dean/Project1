@@ -303,7 +303,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 
 /* day boxes */
-[class~="box"] .assignment-title
+[class*="day-box PREP"]>.assignment-title, [class*="day-box CURRENT"]>.assignment-title, [class*="day-box COMPLETED"]>.assignment-title
 {
   color: black;
   display: inline;
@@ -315,7 +315,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   border: 2px solid transparent;
 }
 
-[class~="box"] .assignment-title:hover
+[class*="day-box PREP"]>.assignment-title:hover, [class*="day-box CURRENT"]>.assignment-title:hover, [class*="day-box COMPLETED"]>.assignment-title:hover 
 {
   color: rgb(155, 73, 155);
   background-color: transparent;
