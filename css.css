@@ -292,8 +292,9 @@ div.partners
 }
 .partners #text
 {
-  position: relative;
-  left: -100px;
+  /*position: relative;
+  left: -100px;*/
+  float: left;
 }
 
 /* day boxes */
