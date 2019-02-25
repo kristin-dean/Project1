@@ -93,7 +93,7 @@ body
 
 .sound:hover
 {
-  /*border: 2px solid var(--main-dark-grey);*/
+  border: 2px solid var(--main-dark-grey);
   background-color: var(--main-dark-greyO2);
 }
 
