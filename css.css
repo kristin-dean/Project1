@@ -233,7 +233,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   color: var(--main-light-blue); 
 }
 
-.assignment-title
+div.assignment-title
 {
   height: 120px;
   padding: 5px 400px 5px 400px;
@@ -246,7 +246,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   margin-right: 100px;
 }
 
-.assignment-title:hover
+div.assignment-title:hover
 {
   border: 5px solid var(--main-dark-colorO1);
   color: var(--main-light-blue); 
