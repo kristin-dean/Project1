@@ -155,10 +155,14 @@ img.person_image:hover
   position: absolute;
   top: 460px;
   left: 275px;
+  color: var(--main-white-colorO1);
+ text-shadow: 0px 0px 10px black;
+ font-family: var(--main-font2);
+  font-weight: bold;
 }
 
 
-.username, label, .flash
+.username, label
 {
  /*text-align: center;*/
  color: var(--main-white-colorO1);
@@ -167,14 +171,14 @@ img.person_image:hover
  
 }
 
-label
-{
-  text-align: left;
-}
-
 .username:hover, .flash:hover
 {
   color: var(--main-light-blue);
+}
+
+label
+{
+  text-align: left;
 }
 
 .username svg, .username .account_form
