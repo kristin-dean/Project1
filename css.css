@@ -192,6 +192,7 @@ th:hover, td:hover
   margin-top: 60px;
   margin-left: 100px;
   font-family: var(--main-font);
+  overflow: visible;
 }
 
 h1
