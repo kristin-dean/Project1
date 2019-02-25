@@ -242,7 +242,6 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 .assignment-label + .assignment-title:hover
 {
   color: rgb(155, 73, 155);
-  background-color: var(--main-dark-color-O1);
 }
 
 .assignment-title
@@ -263,7 +262,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 {
   border: 5px solid var(--main-dark-colorO1);
   color: var(--main-light-blue); 
-  background-color: var(--main-dark-coloO1);
+  background-color: var(--main-dark-colorO1);
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
