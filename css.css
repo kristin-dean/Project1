@@ -297,6 +297,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 {
   color: var(--main-white-color); 
   display: inline;
+  float: left;
   /*position: relative;
   left: 275px;*/
   
