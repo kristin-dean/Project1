@@ -238,6 +238,8 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 .assignment-title
 {
+  width: 800px;
+  height: 30px;
   color: var(--main-white-color);
   font-family: var(--main-font2); 
   background-color: var(--main-dark-color-O2);
