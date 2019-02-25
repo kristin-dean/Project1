@@ -81,12 +81,6 @@ body
   background-color: var(--main-dark-color);
   height: 500px; /* You must set a specified height */
   background-position: center;
-  -webkit-animation: slide 30s linear infinite;
-}
-
-@-webkit-keyframes slide {
-    from { background-position: -5px 0; }
-    to { background-position: 5px 0; }
 }
 
 .sound
