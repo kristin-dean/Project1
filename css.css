@@ -81,14 +81,10 @@ body
   background-color: var(--main-dark-color);
   height: 500px; /* You must set a specified height */
   background-position: center;
-}
-
- 
-.background-element
-{
-    -webkit-transform: translateZ(-999px) scale(2);
-    transform: translateZ(-999px) scale(2);
-    z-index: 3;
+  -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
 }
 
 .sound
