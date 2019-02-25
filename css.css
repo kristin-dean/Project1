@@ -287,6 +287,8 @@ div.partners
 {
   color: var(--main-white-color); 
   /*display: inline;*/
+  position: relative;
+  left: -100px;
  
 }
 
