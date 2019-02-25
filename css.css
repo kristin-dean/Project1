@@ -81,10 +81,12 @@ body
   background-color: var(--main-dark-color);
   height: 500px; /* You must set a specified height */
   background-position: center;
-  -webkit-animation: backgroundScroll 15s linear 1;
-    -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 15s linear 1;
-    animation-fill-mode: forwards;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
 }
 
 .sound
