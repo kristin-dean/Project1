@@ -290,7 +290,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   
  
 }
-.partners
+.partners #text
 {
   color: var(--main-white-color); 
   position: absolute;
