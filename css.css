@@ -565,7 +565,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 /* ------------------------------------------------------- Classmates page ------------------------------------------------------*/
 
-h1 table
+h1~table
 {
  /* padding-top: 200px;*/
   align: center;
