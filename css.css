@@ -559,7 +559,7 @@ div.assignment-title:hover
 h1 table
 {
  /* padding-top: 200px;*/
-  position: relative;
+  align: center;
   margin-right: auto;
   margin-left: auto;
 }
