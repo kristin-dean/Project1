@@ -137,6 +137,8 @@ img.person_image:hover
   
 }
 
+
+
 .username, label, .flash
 {
  /*text-align: center;*/
@@ -285,7 +287,7 @@ div.partners
 {
   color: var(--main-white-color); 
   /*display: inline;*/
-  clear: both;
+ 
 }
 
 /* day boxes */
