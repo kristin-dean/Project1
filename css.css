@@ -239,27 +239,24 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   
 }
 
+.assignment-label + .assignment-title:hover
+{
+  color: rgb(155, 73, 155);
+  background-color: var(--main-dark-color-O1);
+}
+
 .assignment-title
 {
-  width: 800px;
-  height: 30px;
+  
+  height: 80px;
   border: 2px solid var(--main-dark-color-O2);
   color: var(--main-white-color);
   font-family: var(--main-font2); 
   background-color: var(--main-dark-color-O2);
   text-align: center;
   margin-left: 100px;
-  padding-left: 50%;
+  margin-right: 100px;
 }
-
-.assignment-title:hover
-{
-  color: rgb(155, 73, 155);
-  background-color: var(--main-dark-color-O1);
-}
-
-
-
 
 
 [class="nav"] {
