@@ -249,10 +249,11 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 {
   
   height: 100px;
-  border: 5px solid var(--main-dark-color-O2);
+  width: 1000px;
+  border: 5px solid var(--main-dark-colorO2);
   color: var(--main-white-color);
   font-family: var(--main-font2); 
-  background-color: var(--main-dark-color-O2);
+  background-color: var(--main-dark-colorO2);
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
@@ -260,9 +261,9 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 .assignment-title:hover
 {
-  border: 5px solid var(--main-dark-color-O1);
+  border: 5px solid var(--main-dark-colorO1);
   color: var(--main-light-blue); 
-  background-color: var(--main-dark-color-O1);
+  background-color: var(--main-dark-coloO1);
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
