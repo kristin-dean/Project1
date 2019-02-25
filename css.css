@@ -85,7 +85,10 @@ body
 
 .sound
 {
-   content: stars.jpg;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+   content: url(stars.jpg);
 
 }
 
@@ -283,22 +286,16 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   padding-bottom: 50px;
 }
 
-.partners .person_info
+.partners .person_info, .partners
 {
   color: var(--main-white-color); 
-  /*display: inline;*/
-  position: relative;
-  left: 275px;
+  display: inline;
+  /*position: relative;
+  left: 275px;*/
   
  
 }
-.partners
-{
-  color: var(--main-white-color); 
-  /*position: absolute;
-  left: 100px;*/
-  
-}
+
 
 /* day boxes */
 [class~="box"] .assignment-title
