@@ -243,7 +243,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 {
   width: 800px;
   height: 30px;
-  border: 2px solid, black;
+  border: 2px solid var(--main-dark-color-O2);
   color: var(--main-white-color);
   font-family: var(--main-font2); 
   background-color: var(--main-dark-color-O2);
