@@ -179,7 +179,7 @@ th:hover, td:hover
 }
 
 
-[class*="header"]
+.header
 {
   margin-top: 60px;
   margin-left: 100px;
@@ -283,14 +283,14 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   padding-bottom: 50px;
 }
 
-div.partners
+.partners .person_info
 {
   color: var(--main-white-color); 
   /*display: inline;*/
   
  
 }
-.partners #text
+.partners
 {
   /*position: relative;
   left: -100px;*/
