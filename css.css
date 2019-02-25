@@ -292,9 +292,10 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 }
 .partners
 {
-  /*position: relative;
-  left: -100px;*/
-  float: left;
+  color: var(--main-white-color); 
+  position: absolute;
+  left: 100px;
+  
 }
 
 /* day boxes */
