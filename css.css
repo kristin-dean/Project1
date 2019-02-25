@@ -145,6 +145,10 @@ img.person_image:hover
   
 }
 
+.login
+{
+  margin-left: 100px; 
+}
 
 
 .username, label, .flash
