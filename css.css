@@ -552,7 +552,7 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
 
 h1 table
 {
-  padding-top: 200px;
+ /* padding-top: 200px;*/
   position: relative;
   left: 50%;
 }
@@ -576,8 +576,8 @@ svg
   border-radius:5px;
   margin-left:auto; 
   margin-right:auto;
-  position: relative;
-  top: 150px;
+  /*position: relative;
+  top: 150px;*/
 }
 
 svg:hover
@@ -615,7 +615,7 @@ svg:hover
   text-align: center;
   background-color: var(--main-dark-colorO2);
   padding: 15px;
-  margin: 25px 100px 25px 100px;
+  margin: 25px 0px 25px 100px;
   border-radius:5px;
   font-family: var(--main-font2);
   clear: left;
