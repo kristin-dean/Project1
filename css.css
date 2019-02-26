@@ -325,6 +325,12 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   width: 300px;
 }
 
+.partners>.person_image
+{
+  position: relative;
+  top: -20px;
+}
+
 .partners>a:link
 {
   color: var(--main-light-blue);
