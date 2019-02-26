@@ -239,7 +239,7 @@ h3
   margin-left: 30px;
 }
 
-h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"], .prompt, .rubric_title, .author_comments, assignment-title
+h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"], .view_text, .prompt, .rubric_title, .author_comments, assignment-title
 {
  color: var(--main-white-color);
  margin-left: 50px;
@@ -247,25 +247,10 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"],
  font-family: var(--main-font2);
 }
 
-h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_title"]:hover, [class*="assignment_prompt"]:hover
+h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, .view_text:hover, [class="assignment_title"]:hover, [class*="assignment_prompt"]:hover
 {
   color: var(--main-light-blue); 
 }
-
-.view_text
-{
-   color: var(--main-light-blue);
- margin-left: 50px;
- text-shadow: 0px 0px 10px black;
- font-family: var(--main-font2);
-}
-
-.view_text:hover
-{
-  color: var(--main-white-color);
-}
-
-
 
 
 .person_info>a
