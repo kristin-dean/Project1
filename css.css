@@ -145,6 +145,11 @@ img.person_image:hover
   
 }
 
+h3+.person_info
+{
+  margin-left: 100px;
+}
+
 .login
 {
   margin-left: 100px; 
