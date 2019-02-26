@@ -242,6 +242,10 @@ h2, h3, h4, h5, h6, p, [class="assignment_title"], [class*="assignment_prompt"],
  font-family: var(--main-font2);
 }
 
+a
+{
+   font-family: var(--main-font2);
+}
 
 h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_title"]:hover, [class*="assignment_prompt"]:hover
 {
