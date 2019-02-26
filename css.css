@@ -316,9 +316,9 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, [class="assignment_ti
   width: 300px;
 }
 
-.partners>#text
+.partners>a:link
 {
-  font-size: 500%;
+  color: var(--main-light-blue);
 }
 
 
